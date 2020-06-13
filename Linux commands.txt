@@ -1,0 +1,11 @@
+ls отображение папок и файлов
+cd вход в папку
+chmod изменение доступа к папкам и файлам
+rm -rf * Удаление всех папок и файлов
+screen -ls Отображение всех открытых окон
+htop Менеджер процессов
+screen -r Переключение между окнами
+screen -S "Minecraft server" Создать новое окно
+echo "eula=true" > eula.txt Принятие лицензионного соглашения для Minecraft server
+unzip Разархивировать архив
+java -Xmx7000M -Xms7000M -jar craftbukkit-1.12.2.jar nogui Запускаем сервер
