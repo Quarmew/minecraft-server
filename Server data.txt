@@ -1,0 +1,5 @@
+Server name: s285926.savps.ru
+Operating system: Ubuntu-18.04-amd64
+IP-address: 188.127.235.115
+User: root
+Password: 0E8u6V6ymn1a
