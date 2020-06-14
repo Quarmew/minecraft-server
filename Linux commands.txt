@@ -9,3 +9,8 @@ screen -S "Minecraft server" Создать новое окно
 echo "eula=true" > eula.txt Принятие лицензионного соглашения для Minecraft server
 unzip Разархивировать архив
 java -Xmx7000M -Xms7000M -jar craftbukkit-1.12.2.jar nogui Запускаем сервер
+
+Позволятет запустить sh
+nano swap.sh
+chmod +x swap.sh
+./swap.sh
