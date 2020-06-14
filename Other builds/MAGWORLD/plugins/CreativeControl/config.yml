@@ -1,0 +1,71 @@
+CreativeControl:
+  CoolDownMsg: 200
+  Messages:
+    Prefix: '&f[&c*&f] '
+    Сant: 'К сожалению, это действие &cзапрещено&f в творческом режиме. Перейдите в режим выживания &e(/gm 0)'
+    BlockInCreative: 'Блок был установлен в творческом режиме, потому он не выпадет.'
+    ItemInCreative: 'Предмет можно подобрать только в &6творческом режиме&r.'
+    ItemInSurvival: 'Предмет можно подобрать только в &6режиме выживания&r.'
+  Blocked:
+    Blocks:
+     - 219
+     - 220
+     - 221
+     - 222
+     - 223
+     - 224
+     - 225
+     - 226
+     - 227
+     - 228
+     - 229
+     - 230
+     - 231
+     - 232
+     - 233
+     - 234
+     - 154
+     - 158
+     - 218
+     - 23
+     - 146
+     - 61
+     - 62
+     - 58
+     - 54
+     - 84
+     - 130
+     - 116
+     - 408
+     - 407
+     - 343
+     - 342
+     - 379
+     - 145
+     - 117
+    Commands:
+     - /wb
+     - /ewb
+     - /wbench
+     - /ewbench
+     - /workbench
+     - /eworkbench
+     - /invsee
+     - /einvsee
+     - /ec
+     - /eec
+     - /echest
+     - /eechest
+     - /endersee
+     - /eendersee
+     - /enderchest
+     - /eenderchest
+     - /compact
+     - /condense
+     - /blocks
+     - /toblocks
+     - /ecompact
+     - /econdense
+     - /eblocks
+     - /etoblocks
+     - /carshop

@@ -1,0 +1,77 @@
+name: 'Свадьбы'
+command: 'marrybrak'
+rows: 6
+Items:
+  Info:
+    id: '397:3'
+    slot: 11
+    glow: false
+    name: '&aВыбрать пол'
+    animation:
+     1:
+     - '&fНажмите для установки'
+    command: 'gui open MarryGender'
+    amount: 1
+  tp:
+    id: '288'
+    slot: 13
+    name: '&aТелепортироваться к партнеру'
+    animation:
+     1:
+     - '&fТелепорт к мужу/жене'
+    command: 'marry tp'
+    amount: 1
+  pvp:
+    name: '&cВкл&a/Выкл pvp-режим'
+    command: 'marry tp'
+    lore:
+    animation:
+     1:
+      - '&cВключи &fили &aВыключи &fPvP-режим с партнером'
+    slot: 15
+    id: 261
+  seks:
+    name: '&aЗаняться сексом'
+    command: 'tell:&e&l** &fЧтобы заняться любовь, напишите команду &e/sex [ник игрока]'
+    animation:
+     1:
+       - '&fЗаймись сексом со своим партнером &8(18+)'
+    slot: 17
+    id: '361'
+  marry:
+    name: '&aПожениться'
+    command: 'tell:&e&l** &fЧтобы пожениться, используй команду: &e/marry [ник]'
+    animation:
+     1:
+       - '&fИспользуй команду, чтобы жениться &6/marry [ник]'
+    amount: 1
+    slot: 30
+    id: 386
+  help:
+    name: '&aВесь список команд'
+    command: ''
+    slot: 32
+    id: 395
+    animation:
+     1:
+       - ''
+       - '&e/marry gender &bмужской&f/&dженский &f- Указать пол'
+       - '&e/marry [игрок] &f- Сделать предложение'
+       - '&e/marry home &f- Телепортироваться домой'
+       - '&e/marry chat &f- Включить чат только влюбленных'
+       - '&e/marry sethome &f- Установить супружеский дом'
+       - '&e/marry remhome &f- Удалить супружеский дом'
+       - '&e/marry divorce &f- Развестить с партнером'
+       - '&e/marry tp &f- Телепортироваться к партнеру'
+       - '&e/marry sex &f- Заняться сексом с игроком'
+       - '&e/marry pvp &f- &cВкл&f/&aВыкл &fPvP-режим'
+    amount: 1
+  marrytp:
+    name: '&aТелепортироваться домой'
+    command: 'marry home'
+    animation:
+     1:
+       - '&fИспользуй команду, чтобы жениться &6/marry home'
+    amount: 1
+    slot: 34
+    id: 371

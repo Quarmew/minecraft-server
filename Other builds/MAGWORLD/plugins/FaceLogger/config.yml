@@ -1,0 +1,44 @@
+# %date = The date and time when the content is logged.
+# %world = The world the player is in when the content is logged.
+# %x = The x coordinate of player when the content is logged.
+# %y = The y coordinate of player when the content is logged.
+# %z = The z coordinate of player when the content is logged.
+# %name = The name of the player that created the content that is logged.
+# %content = The content that is logged.
+
+Database:
+  type: SQLite
+  connection:
+    hostname: 127.0.0.1
+    database: CCLogger
+    port: 3306
+    username: test
+    password: test
+  useDatabase: false
+Log:
+  commands:
+    blacklist:
+    - /help
+    - /who
+    - /home
+  logFormat: '[%ip][%date (%world: %x,%y,%z)] %name: %content'
+  notifications:
+    chat:
+    - kill
+    - ddos
+    - hack
+    - flymod
+    commands:
+    - /pl
+    - /item
+    - /give
+  toggle:
+    globalCommands: true
+    globalChat: true
+    playerCommands: true
+    playerChat: true
+    logNotifyChat: true
+    inGameNotifications: true
+    logNotifyCommands: true
+    playerLogin: true
+    globalLogin: true

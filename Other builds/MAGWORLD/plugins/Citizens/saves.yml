@@ -1,0 +1,39 @@
+# Citizens NPC Storage
+
+
+last-created-npc-id: 6
+npc:
+  '1':
+    metadata:
+      player-skin-textures: eyJ0aW1lc3RhbXAiOjE0ODE0ODM1NDYyMDAsInByb2ZpbGVJZCI6ImYyNDc0OTExNDhhOTQ0YmY5MmM5MzIyZmZjOGM5NzhlIiwicHJvZmlsZU5hbWUiOiJGbGFzaCIsInNpZ25hdHVyZVJlcXVpcmVkIjp0cnVlLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzUxYjYyNGM4NWU2ZGViMzUwMTc2NWZhYjAyNjcwNzI0ZTVhZjA0ZGE1OWIzOTRmZjZmNDg0ZjNhYjY5NTE0OSJ9LCJDQVBFIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWMzY2E3ZWUyYTQ5OGYxYjVkMjU4ZDVmYTkyN2U2M2U0MzMxNDNhZGQ1NTM4Y2Y2M2I2YTliNzhhZTczNSJ9fX0=
+      cached-skin-uuid-name: flash
+      cached-skin-uuid: f2474911-48a9-44bf-92c9-322ffc8c978e
+      player-skin-name: flash
+      player-skin-signature: hdIjKqLrlxlf3L2736Zwvhx5lrJYxFs4gW6mYyY7maTC4A+1E/86jrR8k6afg4U/KIBQqlX2fjsMpIMxe6dEJazSvd5owpHfIAKPBqY65oMP0pglqsPi2+jOQ280169SRUg0BCvNXur//+uMLOZKQKE5WVxdlnqieMUWHf4yQw30We+kLawaRvFOncBDmNl2IW8e8IAsAWkA/Z8QtvOkDaRCbDTs2yuNw3SwYNP/Fman4KwUtSSHFdEOSC/iC6q8ORhprnjAd1amKlx2F5sbeg6MRI0/0ZVunmp/PwnFdaUkaCqjZH99//nkFdcknBov41LjZ4dP5IoCIy8qoaWWa0JcdsdxCu2kY8P9BlaU4TsYn5ylMJY7Vs3G79+5JAL5SAwMtgams9Vf3N9h8JH1vWNVdXWqJwliBwRMWTkB/z7FLjDUcpHSS8CbknYEhMeJ0EflHFuLWr1nSwjgXknxBfaWIHqHwmT0F7wLF2a1a6KtZr1CNsfDTY5wkZgJObPHZsnLaMCGZXHbAuJMDPnCgt2d8YbC/rzSe8/lZ0JjSSquBYpHdxyDnSkjH7ikuyg2l5TbmBGrWZec6fVOgFInRtMBfwLzD0nU/IzPGgrCOfj898TI5CPdzQ1vlm4YtetDTOr9JnvPZV5Hd4aSoicUjZUCky/e+oKum3DX5EEiWFg=
+    name: §aБафер §7(ПКМ)
+    uuid: 1ff6de19-65d4-4ada-9fdf-dfb5a8436c0d
+    traits:
+      spawned: true
+      inventory: {}
+      type: EnderCrystal
+      location:
+        world: world
+        x: '-304.65347876223217'
+        y: '70.05030704518876'
+        z: '1219.3586424401067'
+        yaw: '-15.2369384765625'
+        pitch: '-23.7368221282959'
+      owner:
+        owner: ZentoFX
+        uuid: 71786df8-5b5c-3abe-8f8b-87d41ed2b69e
+      lookclose:
+        enabled: true
+        range: '5.0'
+        realisticlooking: false
+    traitnames: type,owner,spawned,location,lookclose,inventory
+    navigator:
+      pathfindingrange: '25.0'
+      stationaryticks: -1
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true

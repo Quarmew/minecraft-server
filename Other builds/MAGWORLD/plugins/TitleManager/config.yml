@@ -1,0 +1,32 @@
+usingConfig: true
+config-version: 3
+using-bungeecord: false
+legacy-client-support: false
+updater:
+  check-automatically: false
+tabmenu:
+  enabled: true
+  header: \n&6&lMagWorld\n \n&f      Вы находитесь на сервере:\n&esurvival\n
+  footer: \n&fГруппа ВК:\n&evk.com/magmcc\n
+welcome_message:
+  enabled: true
+  title: §fПриятель, мы вновь с тобой!
+  subtitle: §fИ мы рады что ты вернулся, §c{PLAYER}&f.
+  fadeIn: 40
+  stay: 80
+  fadeOut: 40
+  first-join:
+    title: §7Рады тебя видеть, §a{PLAYER}
+    subtitle: §7Наш IP - &emc.magmc.ru
+actionbar-welcome:
+  enabled: false
+  message: '&aДобро пожаловать!'
+  first-join:
+    message: '&aДобро пожаловать!'
+number-format:
+  enabled: true
+  format: '#,###.##'
+date-format:
+  format: dd/MM/yyyy HH:mm:ss
+disabled-variables:
+- my-disabled-variable

@@ -1,0 +1,36 @@
+winnest_donate: '&aДонат, который можешь выиграть'
+permission_msg: '&f[&a*&f] &fУ тебя нет прав для этой команды!'
+not_integer: '&f[&a*&f] &fТы вводишь не число'
+set_key: '&f[&a*&f] &fВы установили &a%key% &fигроку &a%player%'
+gui_name: Кейс с донатом
+null_keys: '&f[&a*&f] &fНе удалось найти у вас ключ для открытия этого кейса.'
+last_five_winners: '&fПоследние &c5&f победителей'
+null_winner: '&f[&a*f] &e&lНет победителя'
+info: '&f[&a*&f] &fУ игрока &a%player%&f - &a%key% &fкейсов'
+location_chest_seted: '&f[&a*&f] &fВы успешно установили локацию для сундука!'
+usage: |-
+  &f[&a*&f] &fДать ключи: &a/scases give [игрок] [ключи]
+  &f[&a*&f] &fИнфа о игроке: &a/scases info [игрок]
+  &f[&a*&f] &fСоздать блок: &a/scases setchest
+title_on_open: false
+titles: |-
+  &e&l<&a&l◈&e&l>
+  Игрок &a%player%&f выиграл &a%group%
+open: '&f[&a*&f]&f Тебе выпал с кейса &a%group%&f, у тебя осталось &a%key%&f ключей'
+opened_case:
+- ''
+- ''
+- '&f[&a*&f] &fИгрок &a%player%&f открывает &aДонат-Кейс'
+- '&f[&a*&f] &fИ ему выпадает...'
+- '&f[&a*&f] &fЕму выпадает - %group%'
+- ''
+- ''
+sound_pickup: ORB_PICKUP
+sound_chest_open: CHEST_OPEN
+sound_chest_close: CHEST_CLOSE
+sound_levelup: LEVEL_UP
+sound_click: CLICK
+free_case: false
+freecase: '&e&l<&a&l◈&e&l> &fТебе был выдан &a1&f ключ'
+freecase_time_msg: '&e&l<&a&l◈&e&l> &fПодожди &a%time%&f, перед вводом'
+freecase_time: 800

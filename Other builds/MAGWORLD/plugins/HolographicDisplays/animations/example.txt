@@ -1,0 +1,2 @@
+Speed: 0.5
+"{animation: example.txt}"

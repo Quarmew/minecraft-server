@@ -1,0 +1,46 @@
+decolor: false
+signfilter: true
+itemfilter: false
+consolefilter: false
+commandfilter: true
+spamfilter: false
+commandspamfilter: false
+cmdblist: []
+cmdlist: []
+cmdchat:
+points:
+  enabled: false
+  leak:
+    points: 1.0
+    interval: 30
+  thresholds:
+    threshold1:
+      name: Warn
+      points: 10.0
+      actions:
+        ascending:
+         - console kick %player% Защита MW
+        descending:
+         - console kick %player% Защита MW
+    threshold2:
+      name: Kick
+      points: 20.0
+      actions:
+        ascending:
+         - console kick %player% Защита MW
+    threshold3:
+      name: Tempban
+      points: 30.0
+      actions:
+        ascending:
+         - console kick %player% Защита MW
+        descending:
+         - console kick %player% Защита MW
+warnmsg: '&f[&cGuard&f] Активирована защита MW!'
+kickmsg: '&f[&cGuard&f] Активирована защита MW!'
+burnmsg: '&f[&cGuard&f] Активирована защита MW!'
+killmsg: '&f[&cGuard&f] Активирована защита MW!'
+finemsg: '&f[&cGuard&f] Активирована защита MW!'
+loglevel: fine
+logfile: false
+debug: off

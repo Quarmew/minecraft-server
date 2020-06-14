@@ -1,0 +1,26 @@
+space-between-lines: 0.02
+images:
+  symbol: '[x]'
+  transparency:
+    space: ' [|] '
+    color: '&7'
+bungee:
+  refresh-seconds: 3
+  use-RedisBungee: false
+  pinger:
+    enable: true
+    timeout: 20
+    offline-motd: '&cПерезагрузка...'
+    status:
+      online: '&aОнлайн'
+      offline: '&cОффлайн'
+    motd-remove-leading-trailing-spaces: true
+    servers:
+    - 'ALL: 0.0.0.0:25565'
+    - 'Survival: magmc:25565:25566'
+    - 'SkyWars: 0.0.0.0:25567'
+time:
+  format: HH:mm
+  zone: GMT+1
+update-notification: false
+debug: false

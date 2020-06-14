@@ -1,0 +1,37 @@
+command: 'job'
+name: '                 Работы'
+rows: 6
+#во - ・
+Items:
+  Exit:
+    name: '&cНазад'
+    command: 'gui open menu'
+    lore:
+      - '&fНажмите, чтобы вернуться'
+      - '&fв главное меню'
+    slot: 41
+    id: '262'
+  jobs:
+    name: '&eУтроиться на работу'
+    command: 'gui open jobs'
+    lore:
+      - '&fНажмите, чтобы посмотреть'
+      - '&fвсе доступные профессии'
+    id: '282'
+    slot: 20
+  statsjoin:
+    name: '&aСтатистика'
+    command: 'jobs stats'
+    lore:
+      - '&fНажмите, чтобы посмотреть'
+      - '&fСтатистику своей профессии'
+    id: '340'
+    slot: 23
+  startleave:
+    name: '&cУволиться с работы'
+    command: 'jobs leaveall'
+    lore:
+      - '&fНажмите, чтобы уволиться'
+      - '&fСо всех ваших работ'
+    id: '281'
+    slot: 26

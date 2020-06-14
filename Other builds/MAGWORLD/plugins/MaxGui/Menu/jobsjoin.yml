@@ -1,0 +1,53 @@
+command: 'jobs'
+name: '                 Работы'
+rows: 6
+#во - ・
+Items:
+  Lumberjack:
+    name: '&eДровосек'
+    command: 'jobs join Woodcutter'
+    lore:
+      - '&fНажмите, чтобы устроиться'
+      - '&fна эту работу'
+    slot: 21
+    id: '258'
+  Miner:
+    name: '&eШахтер'
+    command: 'jobs join Miner'
+    lore:
+      - '&fНажмите, чтобы устроиться'
+      - '&fна эту работу'
+    id: '257'
+    slot: 22
+  Builder:
+    name: '&eСтроитель'
+    command: 'jobs join Builder'
+    lore:
+      - '&fНажмите, чтобы устроиться'
+      - '&fна эту работу'
+    id: '306'
+    slot: 23
+  Fermar:
+    name: '&eФермер'
+    command: 'jobs join Farmer'
+    lore:
+      - '&fНажмите, чтобы устроиться'
+      - '&fна эту работу'
+    id: '292'
+    slot: 24
+  Hunter:
+    name: '&eОхотник'
+    command: 'jobs join Hunter'
+    lore:
+      - '&fНажмите, чтобы устроиться'
+      - '&fна эту работу'
+    id: '261'
+    slot: 25
+  exit:
+    name: '&cНазад'
+    command: 'gui open menu'
+    lore:
+      - '&fНажмите, чтобы вернуться'
+      - '&fв главное меню'
+    id: '262'
+    slot: 41

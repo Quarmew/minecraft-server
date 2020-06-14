@@ -1,0 +1,3 @@
+config: 1
+town_name:
+  format: 'Дом: &a{TOWN}'

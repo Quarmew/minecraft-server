@@ -1,0 +1,19 @@
+Inventory_Name: "&0Секретный сундук"
+Inventory_Slots: 27
+ItemAmountToAdd: 5 
+Particles: true
+World: "world"
+LargestDinctance_X: 5000
+SmallestDinctance_X: -5000
+LargestDinctance_Z: 5000
+SmallestDinctance_Z: -5000
+SpawnBroadcastMessage: "&r\n                                                                            \n&e     Секретный сундук с ценными вещами только что был заспавнен на карте. \n           У тебя ровно &c&l5:00 &eминут на то, чтобы его открыть! \n             &eКоординаты сундука: &c{X}x&e, &c{Y}y&e, &c{Z}z\n&8\n                                                                             &r"
+NotAbleToBreakAchest: "&cВы не можете сломать секретный сундук!"
+BroadcastMessageOnLoot: true
+MessageOnLoot: "&r\n                                                                             \n&c&l      {Player} &eограбил сундук на координатах &c{X}x&e, &c{Y}y&e, &c{Z}z\n                                                                            &r"
+##time in seconds
+SpawnChestPerTime: 3600
+KillChest: true
+KillChestAfterTime: 3000
+BroadcastKillMessage: true
+BroadcastMessage: "&r\n                                                                                 \n&e         К сожалению, секретный сундук который находится\n  на координатах &c{X}x&e, &c{Y}y&e, &c{Z}z&e, &eникто не успел открыть.\n            Соотвственно, он был убран с карты!                                                                           &r"

@@ -1,0 +1,258 @@
+chestcommands: true
+menu-settings:
+  name: 'Магазин (Ресурсы)   страница №2'
+  rows: 6
+
+block-88:
+  AMOUNT: 2
+  PRICE: 675
+  COMMAND: 'give: 264, 2'
+  NAME: '&aАлмаз &8(Скидка 10%)'
+  glow: true
+  LORE:
+    - '&7Количество: &a2 &7штуки'
+    - '&7Стоимость: &a675 &7монет.'
+  ID: 264
+  KEEP-OPEN: true
+  POSITION-X: 2
+  POSITION-Y: 2
+
+block-89:
+  AMOUNT: 4
+  PRICE: 500
+  COMMAND: 'give: 265, 4'
+  NAME: '&aЖелезный слиток'
+  LORE:
+    - '&7Количество: &a4 &7штуки'
+    - '&7Стоимость: &a500 &7монет.'
+  ID: 265
+  KEEP-OPEN: true
+  POSITION-X: 3
+  POSITION-Y: 2
+
+block-91:
+  AMOUNT: 6
+  PRICE: 600
+  COMMAND: 'give: 266, 6'
+  NAME: '&aЗолотой слиток'
+  LORE:
+    - '&7Количество: &a4 &7штуки'
+    - '&7Стоимость: &a600 &7монет.'
+  ID: 266
+  KEEP-OPEN: true
+  POSITION-X: 4
+  POSITION-Y: 2
+  
+block-98:
+  AMOUNT: 16
+  PRICE: 150
+  COMMAND: 'give: 263, 16'
+  NAME: '&aУголь'
+  LORE:
+    - '&7Количество: &a16 &7штук'
+    - '&7Стоимость: &a150 &7монет.'
+  ID: 263
+  KEEP-OPEN: true
+  POSITION-X: 5
+  POSITION-Y: 2
+  
+block-981:
+  AMOUNT: 2
+  PRICE: 388
+  COMMAND: 'give: 388, 2'
+  NAME: '&aИзумруд'
+  LORE:
+    - '&7Количество: &a2 &7штуки'
+    - '&7Стоимость: &a600 &7монет.'
+  ID: 388
+  KEEP-OPEN: true
+  POSITION-X: 6
+  POSITION-Y: 2
+  
+block-982:
+  AMOUNT: 4
+  PRICE: 200
+  COMMAND: 'give: 388, 4'
+  NAME: '&aСверкающий арбуз'
+  LORE:
+    - '&7Количество: &a4 &7штуки'
+    - '&7Стоимость: &a200 &7монет.'
+  ID: 382
+  KEEP-OPEN: true
+  POSITION-X: 7
+  POSITION-Y: 2
+  
+block-983:
+  AMOUNT: 4
+  PRICE: 200
+  COMMAND: 'give: 388, 4'
+  NAME: '&aОгненный порошок'
+  LORE:
+    - '&7Количество: &a4 &7штуки'
+    - '&7Стоимость: &a200 &7монет.'
+  ID: 377
+  KEEP-OPEN: true
+  POSITION-X: 8
+  POSITION-Y: 2
+  
+block-9233:
+  AMOUNT: 4
+  PRICE: 350
+  COMMAND: 'give: 369, 4'
+  NAME: '&aСтержень ифрита'
+  LORE:
+    - '&7Количество: &a4 &7штуки'
+    - '&7Стоимость: &a350 &7монет.'
+  ID: 369
+  KEEP-OPEN: true
+  POSITION-X: 5
+  POSITION-Y: 4
+  
+block-9356:
+  AMOUNT: 4
+  PRICE: 350
+  COMMAND: 'give: 378, 4'
+  NAME: '&aСгусток магмы'
+  LORE:
+    - '&7Количество: &a4 &7штуки'
+    - '&7Стоимость: &a350 &7монет.'
+  ID: 378
+  KEEP-OPEN: true
+  POSITION-X: 3
+  POSITION-Y: 3
+  
+block-93563:
+  AMOUNT: 4
+  PRICE: 350
+  COMMAND: 'give: 376, 4'
+  NAME: '&aМаринованый паучий глаз'
+  LORE:
+    - '&7Количество: &a4 &7штуки'
+    - '&7Стоимость: &a350 &7монет.'
+  ID: 376
+  KEEP-OPEN: true
+  POSITION-X: 4
+  POSITION-Y: 3
+  
+block-935635:
+  AMOUNT: 4
+  PRICE: 450
+  COMMAND: 'give: 396, 4'
+  NAME: '&aЗолотая морковь'
+  LORE:
+    - '&7Количество: &a4 &7штуки'
+    - '&7Стоимость: &a450 &7монет.'
+  ID: 396
+  KEEP-OPEN: true
+  POSITION-X: 5
+  POSITION-Y: 3
+  
+block-93563532:
+  AMOUNT: 32
+  PRICE: 450
+  COMMAND: 'give: 384, 32'
+  NAME: '&aПузырки опыта'
+  LORE:
+    - '&7Количество: &a32 &7штуки'
+    - '&7Стоимость: &a450 &7монет.'
+  ID: 384
+  KEEP-OPEN: true
+  POSITION-X: 6
+  POSITION-Y: 3
+  
+block-379:
+  AMOUNT: 1
+  PRICE: 550
+  COMMAND: 'give: 379, 1'
+  NAME: '&aВарочная стойка'
+  LORE:
+    - '&7Количество: &a1 &7штука'
+    - '&7Стоимость: &a550 &7монет.'
+  ID: 379
+  KEEP-OPEN: true
+  POSITION-X: 2
+  POSITION-Y: 4
+  
+block-380:
+  AMOUNT: 1
+  PRICE: 400
+  COMMAND: 'give: 380, 1'
+  NAME: '&aКотел'
+  LORE:
+    - '&7Количество: &a1 &7штука'
+    - '&7Стоимость: &a400 &7монет.'
+  ID: 380
+  KEEP-OPEN: true
+  POSITION-X: 3
+  POSITION-Y: 4
+  
+block-372:
+  AMOUNT: 16
+  PRICE: 600
+  COMMAND: 'give: 372, 16'
+  NAME: '&aАдский нарост'
+  LORE:
+    - '&7Количество: &a16 &7штук'
+    - '&7Стоимость: &a600 &7монет.'
+  ID: 372
+  KEEP-OPEN: true
+  POSITION-X: 4
+  POSITION-Y: 4
+  
+block-374:
+  AMOUNT: 16
+  PRICE: 30
+  COMMAND: 'give: 374, 16'
+  NAME: '&aПустой пузырек'
+  LORE:
+    - '&7Количество: &a1 &7штука'
+    - '&7Стоимость: &a30 &7монет.'
+  ID: 374
+  KEEP-OPEN: true
+  POSITION-X: 7
+  POSITION-Y: 3
+  
+block-296:
+  AMOUNT: 18
+  PRICE: 200
+  COMMAND: 'give: 296, 18'
+  NAME: '&aПшеница'
+  LORE:
+    - '&7Количество: &a18 &7штук'
+    - '&7Стоимость: &a200 &7монет.'
+  ID: 296
+  KEEP-OPEN: true
+  POSITION-X: 8
+  POSITION-Y: 3
+  
+block-361:
+  AMOUNT: 16
+  PRICE: 350
+  COMMAND: 'give: 368, 16'
+  NAME: '&aЖемчуг эндера'
+  LORE:
+    - '&7Количество: &a16 &7штук'
+    - '&7Стоимость: &a350 &7монет.'
+  ID: 368
+  KEEP-OPEN: true
+  POSITION-X: 2
+  POSITION-Y: 3
+  
+block-222:
+  COMMAND: 'gui open shop'
+  DATA-VALUE: 0
+  NAME: '&aНазад'
+  LORE:
+  ID: 166
+  KEEP-OPEN: true
+  POSITION-X: 8
+  POSITION-Y: 5
+block-22:
+  COMMAND: 'gui open buy3'
+  DATA-VALUE: 0
+  NAME: '&aСледующая страница'
+  LORE:
+  ID: 356
+  KEEP-OPEN: true
+  POSITION-X: 7
+  POSITION-Y: 5

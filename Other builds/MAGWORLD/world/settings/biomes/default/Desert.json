@@ -1,0 +1,272 @@
+{
+  "enabled": true,
+  "rarity": 1.0,
+  "biomeType": "DESERT",
+  "useDungeons": true,
+  "dungeonChance": 8,
+  "useMineShafts": true,
+  "useStrongholds": true,
+  "useVillages": true,
+  "useTemples": false,
+  "useNetherFortress": false,
+  "useCaves": true,
+  "useMonuments": false,
+  "useRavines": true,
+  "useWitchHuts": false,
+  "usePyramids": false,
+  "useJungleTemples": false,
+  "useIgloos": false,
+  "useFossils": true,
+  "useWaterLakes": false,
+  "useLavaLakes": true,
+  "useRivers": true,
+  "useNativePainting": false,
+  "useNativeStructure": false,
+  "fossilChance": 64,
+  "lavaLakeChance": 30,
+  "waterLakeChance": 4,
+  "ores": [
+    {
+      "type": "DIRT",
+      "data": 0,
+      "size": 33,
+      "count": 10,
+      "minHeight": 0,
+      "maxHeight": 256
+    },
+    {
+      "type": "GRAVEL",
+      "data": 0,
+      "size": 33,
+      "count": 8,
+      "minHeight": 0,
+      "maxHeight": 256
+    },
+    {
+      "type": "STONE",
+      "data": 1,
+      "size": 33,
+      "count": 10,
+      "minHeight": 0,
+      "maxHeight": 80
+    },
+    {
+      "type": "STONE",
+      "data": 3,
+      "size": 33,
+      "count": 10,
+      "minHeight": 0,
+      "maxHeight": 80
+    },
+    {
+      "type": "STONE",
+      "data": 5,
+      "size": 33,
+      "count": 10,
+      "minHeight": 0,
+      "maxHeight": 80
+    },
+    {
+      "type": "COAL_ORE",
+      "data": 0,
+      "size": 17,
+      "count": 20,
+      "minHeight": 0,
+      "maxHeight": 128
+    },
+    {
+      "type": "IRON_ORE",
+      "data": 0,
+      "size": 9,
+      "count": 20,
+      "minHeight": 0,
+      "maxHeight": 64
+    },
+    {
+      "type": "GOLD_ORE",
+      "data": 0,
+      "size": 9,
+      "count": 2,
+      "minHeight": 0,
+      "maxHeight": 32
+    },
+    {
+      "type": "REDSTONE_ORE",
+      "data": 0,
+      "size": 8,
+      "count": 8,
+      "minHeight": 0,
+      "maxHeight": 16
+    },
+    {
+      "type": "DIAMOND_ORE",
+      "data": 0,
+      "size": 8,
+      "count": 1,
+      "minHeight": 0,
+      "maxHeight": 16
+    },
+    {
+      "type": "LAPIS_ORE",
+      "data": 0,
+      "size": 7,
+      "count": 1,
+      "minHeight": 0,
+      "maxHeight": 32
+    },
+    {
+      "type": "EMERALD_ORE",
+      "data": 0,
+      "size": 4,
+      "count": 2,
+      "minHeight": 4,
+      "maxHeight": 32
+    }
+  ],
+  "terrainSettings": {
+    "subTerrains": [
+      {
+        "provider": "EWG",
+        "name": "Desert",
+        "xModifier": 1.0,
+        "yModifer": 1.0,
+        "zModifer": 1.0,
+        "yOffset": 0
+      }
+    ]
+  },
+  "overlaySettings": {
+    "spawnLillypads": false,
+    "spawnCactus": true,
+    "spawnSnowLayers": false,
+    "spawnIceOnWater": false,
+    "minRiver": 2.0,
+    "groundDepth": 3,
+    "surfaceDepth": 4,
+    "surfaceBlocks": [
+      {},
+      {},
+      {},
+      {},
+      [
+        [
+          {
+            "type": "SAND",
+            "data": 0
+          },
+          1.0
+        ]
+      ]
+    ],
+    "oceanBlocks": [],
+    "groundBlocks": [
+      {},
+      {},
+      {},
+      {},
+      [
+        [
+          {
+            "type": "SANDSTONE",
+            "data": 0
+          },
+          1.0
+        ]
+      ]
+    ],
+    "beachBlocks": [
+      [
+        [
+          {
+            "type": "DIRT",
+            "data": 0
+          },
+          1.0
+        ]
+      ]
+    ],
+    "slabBlocks": [
+      {},
+      {},
+      {},
+      {},
+      [
+        [
+          {
+            "type": "STEP",
+            "data": 1
+          },
+          1.0
+        ]
+      ]
+    ],
+    "stairBlocks": [
+      {},
+      {},
+      {},
+      {},
+      [
+        [
+          {
+            "type": "SANDSTONE_STAIRS",
+            "data": 1
+          },
+          1.0
+        ]
+      ]
+    ],
+    "plantBlocks": [],
+    "riverBlocks": []
+  },
+  "customTrees": [],
+  "customStructures": [
+    {
+      "name": "DECO_desert_tower",
+      "density": 1.6666666666666666E-4,
+      "size": "MEDIUM",
+      "type": "DECO",
+      "blocksRequiredUnderneath": [
+        "SAND"
+      ],
+      "blacklistedDecoBlocks": [
+        46
+      ],
+      "spawnOnGround": true,
+      "overrideExsistingBlocks": false,
+      "allowRotation": false,
+      "applyPhysics": false,
+      "applyAir": true,
+      "fixFlyingRoots": false,
+      "replaceAir": true,
+      "minY": 67,
+      "maxY": 107,
+      "maxSlope": 2.0,
+      "minSlope": 0.0,
+      "snapToXGrid": 150,
+      "snapToYGrid": 150,
+      "gridXOffset": 0,
+      "gridYOffset": 0,
+      "anchorYOffset": 0
+    }
+  ],
+  "maxEWGObjectsPerChunk": 4,
+  "xNoiseModifier": 1.2,
+  "yNoiseModifier": 0.7,
+  "zNoiseModifier": 1.2,
+  "lakeDepth": 0.0,
+  "baseHeight": 67,
+  "nativeBiomes": [
+    {
+      "nativeBiome": "DESERT",
+      "chance": 1.0
+    }
+  ],
+  "entitySettings": {},
+  "groundMaterials": [
+    {
+      "material": "STONE",
+      "data": 0,
+      "chance": 1.0
+    }
+  ]
+}

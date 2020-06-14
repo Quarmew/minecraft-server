@@ -1,0 +1,13 @@
+uniquePlayers: 47
+lastLogin: wither
+lastLoginDisplay: wither
+enableMOTD: true
+randomMOTD: true
+MOTD:
+- '&9ＭＡＧ&fＷＯＲＬＤ &7Провели полный вайп и разбан нарушителей.%n%&81.8/1.9/1.10       &7Безусловно,
+  лучший сервер выживания!'
+enableLoginMOTD: false
+randomLoginMOTD: false
+delayLoginMOTD: 0
+loginMOTD:
+- ＭＡＧＷＯＲＬＤ

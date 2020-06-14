@@ -1,0 +1,9 @@
+config: 1
+money_formatted:
+  fix_thousands: true
+  fix_millions: true
+  thousands_format: К
+  millions_format: М
+  billions_format: Б
+  trillions_format: Т
+  quadrillions_format: КВ

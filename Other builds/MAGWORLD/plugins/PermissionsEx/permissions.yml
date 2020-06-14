@@ -1,0 +1,216 @@
+groups:
+  default:
+    options:
+      default: true
+      prefix: '&7 '
+      suffix: '&7'
+    permissions:
+    - modifyworld.*
+    - EffectsShop.*
+    - bukkit.broadcast.user
+    - -minecraft.*
+    - -bukkit.*
+    - worldguard.region.wand
+    - worldguard.region.removeowner.own.*
+    - worldguard.region.removemember.own.*
+    - worldguard.region.remove.own.*
+    - worldguard.region.list.own
+    - worldguard.region.info.own
+    - worldguard.region.info.othres
+    - worldguard.region.info.member
+    - worldguard.region.info.*
+    - worldguard.region.flag.regions.own.*
+    - worldguard.region.flag.regions.member.*
+    - worldguard.region.flag.flags.use.*
+    - worldguard.region.flag.flags.pvp.*
+    - worldguard.region.claim
+    - worldguard.region.addowner.own.*
+    - worldguard.region.addmember.own.*
+    - worldedit.wand.toggle
+    - worldedit.wand
+    - worldedit.selection.pos
+    - worldedit.selection.hpos
+    - worldedit.selection.expand
+    - worldedit.expand
+    - manager.bypasscooldown
+    - jobs.join.*
+    - essentials.workbench
+    - essentials.warp.list
+    - essentials.warp
+    - essentials.tpdeny
+    - essentials.tpaccept
+    - essentials.tpa
+    - essentials.spawn
+    - essentials.signs.use.weather
+    - essentials.signs.use.warp
+    - essentials.signs.use.time
+    - essentials.signs.use.sell
+    - essentials.signs.use.repair
+    - essentials.signs.use.kit
+    - essentials.signs.use.info
+    - essentials.signs.use.heal
+    - essentials.signs.use.free
+    - essentials.signs.use.enchant
+    - essentials.signs.use.disposal
+    - essentials.signs.use.buy
+    - essentials.signs.use.balance
+    - essentials.sethome.multiple.player
+    - essentials.sethome
+    - essentials.sell
+    - essentials.rules
+    - essentials.recipe
+    - essentials.pay
+    - essentials.msg
+    - essentials.motd
+    - essentials.kits.bonus
+    - essentials.kits.start
+    - essentials.kit
+    - essentials.home
+    - essentials.delhome
+    - essentials.balance
+    - dynpad.*
+    - chat.global
+    - -bukkit.command.*
+    - automessage*
+    - WMarriage.use
+  premium:
+    options:
+      default: false
+      prefix: '&6[Premium] '
+      suffix: '&f'
+    inheritance:
+    - default
+    permissions:
+    - essentials.sethome.2
+    - essentials.sethome.multiple.premium
+    - worldguard.region.unlimited
+    - essentials.fly
+    - essentials.feed
+    - essentials.hat
+    - essentials.kit
+    - essentials.kits.premium
+    - essentials.back
+    - essentials.joinfullserver
+  legend:
+    options:
+      default: false
+      prefix: '&b[Legend] '
+      suffix: '&f'
+    inheritance:
+    - premium
+    permissions:
+    - essentials.sethome.4
+    - essentials.sethome.multiple.legend
+    - essentials.heal
+    - essentials.weather
+    - essentials.clearinventory
+    - essentials.heal
+    - essentials.gamemode
+    - essentials.kits.legend
+    - essentials.gamemode
+    - essentials.enderchest
+    - essentials.workbench
+    - essentials.repair
+  ultra:
+    options:
+      default: false
+      prefix: '&d[Ultra] '
+      suffix: '&f'
+    inheritance:
+    - legend
+    permissions:
+    - essentials.sethome.7
+    - essentials.sethome.multiple.ultra
+    - essentials.setwarp
+    - essentials.repair
+    - essentials.repair.armor
+    - essentials.repair.enchanted
+    - essentials.tpahere
+    - essentials.whois
+    - essentials.time
+    - essentials.time.set
+    - essentials.give
+  sponsor:
+    options:
+      default: false
+      prefix: '&e[Sponsor] '
+      suffix: '&f'
+    inheritance:
+    - ultra
+    permissions:
+    - essentials.fly
+    - essentials.tempban
+    - essentials.kick
+    - essentials.speed
+    - worldedit.set
+    - worldedit.replace
+    - worldedit.walls
+  owner:
+    options:
+      default: false
+      prefix: '&c[OWNER] '
+      suffix: '&f'
+    inheritance:
+    - ultra
+    permissions:
+    - essentials.fly
+    - essentials.top
+    - essentials.vanish
+    - essentials.tp
+    - essentials.setwarp
+    - essentials.invsee
+    - essentials.jump
+    - essentials.kits.moder
+    - essentials.mute
+    - essentials.near
+    - essentials.time
+    - essentials.time.set
+    - essentials.god
+    - essentials.exp
+    - essentials.exp.give
+    - essentials.exp.set
+    - essentials.recipe
+    - essentials.broadcast
+    - worldedit.region.set
+    - worldedit.region.walls
+    - worldedit.history.undo
+    - worldedit.history.redo
+    - essentials.kits.elite
+    - essentials.fireball
+    - essentials.firework
+    - essentials.firework.fire
+    - essentials.tempban
+    - essentials.unban
+    - essentials.speed
+    - essentials.compass
+    - essentials.depth
+    - essentials.mute
+    - essentials.socialspy
+    - essentials.ban
+    - essentials.seen
+    - essentials.tppos
+    - essentials.tptoggle
+    - essentials.tpo essentials.eco
+    - essentials.delwarp
+    - worldedit.region.replace
+    - essentials.tpohere
+    - essentials.fly
+    - essentials.fly.others
+    - essentials.spawn.others
+    - essentials.spawn
+    - essentials.ban
+    - essentials.nick
+    - worldedit.region.walls
+    - '*'
+schema-version: 1
+users:
+  c7cb4d33-daa8-3fb7-949a-947da89133c0:
+    group:
+    - owner
+    options:
+      name: BITCHBOUNC3R
+  d34f8442-d1fd-350b-b509-6fc14a9b2bf7:
+    group:
+    - legend
+    options:
+      name: wither

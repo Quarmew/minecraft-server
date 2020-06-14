@@ -1,0 +1,94 @@
+command: 'warps'
+name: 'Варпы сервера'
+rows: 5
+#во - ・
+Items:
+  Exit:
+    name: '&cВыйти'
+    command: 'gui open menu'
+    slot: 41
+    id: '166'
+  1:
+    name: '&eКейсы с привилегиями'
+    command: 'warp case'
+    lore:
+    id: '146'
+    slot: 11
+  2:
+    name: '&eНедоступно'
+    command: ''
+    lore:
+    id: '351:8'
+    slot: 12
+  3:
+    name: '&eДжунгли'
+    command: 'warp dj'
+    lore:
+    id: '18:3'
+    slot: 13
+  4:
+    name: '&eРавнина'
+    command: ''
+    lore:
+    id: '2'
+    slot: 14
+  5:
+    name: '&eСнежный биом'
+    command: ''
+    lore:
+    id: '80'
+    slot: 15
+  6:
+    name: '&eАвтоматическая шахта'
+    command: 'warp mine'
+    lore:
+    id: '257'
+    slot: 16
+  7:
+    name: '&eЗачаровальня'
+    command: 'warp 4ar'
+    lore:
+    id: '351:8'
+    slot: 17
+  8:
+    name: '&eНедоступно'
+    command: ''
+    lore:
+    id: '351:8'
+    slot: 20
+  9:
+    name: '&eЛес'
+    command: 'warp les'
+    lore:
+    id: '17'
+    slot: 21
+  10:
+    name: '&eЕловый лес'
+    command: ''
+    lore:
+    id: '6:1'
+    slot: 22
+  1111:
+    name: '&eАрена'
+    command: 'warp pvp'
+    lore:
+    id: '267'
+    slot: 23
+  11:
+    name: '&eФерма'
+    command: 'warp ferma'
+    lore:
+    id: '320'
+    slot: 24
+  12:
+    name: '&eПаркур'
+    command: 'warp parkour'
+    lore:
+    id: '159:11'
+    slot: 25
+  13:
+    name: '&eНедоступно'
+    command: ''
+    lore:
+    id: '351:8'
+    slot: 26

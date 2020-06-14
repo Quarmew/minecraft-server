@@ -1,0 +1,33 @@
+Name: Маленький
+RedeemDelay: -1
+'1':
+  type: EXP_BOTTLE
+  amount: 8
+'2':
+  type: DIAMOND
+  amount: 2
+'3':
+  type: IRON_INGOT
+  amount: 6
+'4':
+  type: GOLD_INGOT
+  amount: 4
+'5':
+  type: COAL
+  amount: 16
+'6':
+  type: ENDER_CHEST
+  amount: 1
+'7':
+  type: DIAMOND_PICKAXE
+  amount: 1
+  meta: true
+  enchants:
+  - DIG_SPEED:5
+  - DURABILITY:3
+'8':
+  type: GOLDEN_APPLE
+  amount: 3
+'9':
+  type: ENDER_PEARL
+  amount: 1

@@ -1,0 +1,13 @@
+# Плагин разработан специально для id162198539
+# Скайп разработчика: jampire-h
+debug: false
+allowed_tags: # теги, которые плагин не будет удалять при нахождении
+    - 'display' # тег с внешними параметрами. название, описание
+    - 'CustomPotionEffects' # тег эффектов зелья
+    - 'ench' # тег зачарований
+settings:
+    enchant_max_amount: 4
+    enchant_max_level: 5
+    potion_max_amount: 1
+    potion_max_duration: 1800
+    potion_max_level: 5

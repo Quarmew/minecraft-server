@@ -1,0 +1,5 @@
+﻿# GunFix by FACE
+
+invalidCommandMessage: "&f[&c*&f] &fУ Вас &aнедостаточно &fправ. Купи донат на сайте - &amagworldmc.mcdonate.ru"
+whitelistedPlugins:
+- "worldedit"

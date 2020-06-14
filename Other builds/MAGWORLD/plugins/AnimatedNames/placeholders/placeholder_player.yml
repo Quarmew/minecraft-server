@@ -1,0 +1,8 @@
+config: 2
+firstplayed:
+  format: 'dd/MM/yyyy'
+lastplayed:
+  format: 'dd/MM/yyyy'
+isplayeronline:
+  true: '{player}'
+  false: ''

@@ -1,0 +1,12 @@
+job-info:
+- §aMagWorld §aРабота грузчика
+- §fГруппа §8[§3В§8]§3контакте §8- §evk.com/magmcc
+sign-info:
+- §cMagWorld §bРабота грузчика
+- §fОтнесите груз на базу!
+max_box_count: 5
+item-lore: §f
+item-name: §f Сено для продажи
+range: 20
+title: §c<number>
+slow: true

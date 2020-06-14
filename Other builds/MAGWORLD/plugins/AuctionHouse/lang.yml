@@ -1,0 +1,110 @@
+# 
+#    AuctionHouse    #
+# Author: Danielkinz #
+#      lang.yml      #
+Auction House Title: '&1Рынок'
+Listing Title: '&1Items on sale'
+Expired Title: '&1Expired items'
+Confirmation Title: '&1Confirm Purchase'
+Selling List:
+  Item: '264:0'
+  Name: '&cПредметы, которые вы продаете'
+  Lore:
+  - '&fНажмите, чтобы просмотреть предметы, которые вы продаете'
+  - ''
+  - '&fПродажа: &c%1%'
+Expired List:
+  Item: '394:0'
+  Name: '&cОтмененные и снятые с продажи вещи'
+  Lore:
+  - '&fНажмите, чтобы просмотреть снятые с продажи вещи и вернуть их себе'
+  - ''
+  - '&fСнятых с продажи вещей: &c%1%'
+Previous Page:
+  Item: '339:0'
+  Name: '&cПредыдущая Страница'
+Refresh:
+  Item: '175:0'
+  Name: '&cОбновить страницу'
+Next Page:
+  Item: '339:0'
+  Name: '&cСледующая страница'
+How To:
+  Item: '388:0'
+  Name: '&cКак продать предмет'
+  Lore:
+  - '&fДля продажи вещей на рынке, возьмите её в руки'
+  - '&fи напишите команду &c/ah sell <цена>'
+Explanation:
+  Item: '340:0'
+  Name: '&cЧто это?'
+  Lore:
+  - '&fЭто рынок, здесь вы можете'
+  - '&fприкупить себе вещичек или же сами их продать'
+  - ''
+  - '&fНе забывайте, что вещь на рынке хранится 1 день,'
+  - '&fа потом поподает на склад &c/ah expired'
+Auction House Description 1:
+- ''
+- '&9-------------------'
+- '&6Seller: &e%1%'
+- '&2Price: &a$%2%'
+- '&2Time remaining: &a%3%'
+- '&9-------------------'
+Auction House Description 0:
+- ''
+- '&9-------------------'
+- '&6Seller: &e%1%'
+- '&2Price: &c$%2%'
+- '&2Time remaining: &a%3%'
+- '&9-------------------'
+Selling List Explanation:
+  Item: '388:0'
+  Name: '&6Selling List Help'
+  Lore:
+  - '&aHere you can see all the items that you are'
+  - '&aSelling at the auction house'
+  - '&aRight click on an item to remove it from the list'
+  - '&aRemoved items will be moved to the expired'
+  - '&aItems list'
+Expired List Explanation:
+  Item: '388:0'
+  Name: '&6Expired List Help'
+  Lore:
+  - '&aHere you can see all the items that expired'
+  - '&aRigth click on an item to retrieve it back'
+  - '&ainto your inventory'
+Item Expired Error: '&cThe item you selected has expired'
+Sale List Description:
+- ''
+- '&9-------------------'
+- '&6Time remaining: &e%1%'
+- '&2Price: &a$%2%'
+- '&9-------------------'
+Expired List Description:
+- ''
+- '&9-------------------'
+- '&6Time remaining: &e%1%'
+- '&9-------------------'
+Sell Missing Money Error: '&cYou need to pay $%1% to place an item sale'
+Max Items Reached: '&cYou cannot sell any more items!'
+Cannot Buy Item Error: '&cYou cannot buy this item!'
+Own Item Error: '&cYou cannot buy your own item!'
+Purchase Decline:
+  Name: '&4Decline'
+  Item: '160:14'
+Purchase Confirm:
+  Name: '&aConfirm'
+  Item: '160:5'
+Purchase Declined Message: '&cYou canceled the purchase!'
+Purchase Confirmed Message: '&aItem successfully purchased!'
+Back Button:
+  Item: '340:0'
+  Name: '&6Return to the auction list'
+Empty Hand Error: '&cYou dont have any items in your hand!'
+Invalid Sell Syntax: '&cSyntax: /ah sell <price>'
+Invalid Price: '&cInvalid input!'
+Item Registered: '&aThe item was successfully added to the auction house!'
+Price Too High Error: '&cYou cannot sell an item for more then $%1%'
+No Space In Inventory Error: '&cYou dont have enough inventory space!'
+Item Bought Message: '&a%1% bought one of your items!'

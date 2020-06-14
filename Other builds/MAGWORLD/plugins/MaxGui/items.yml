@@ -1,0 +1,9 @@
+JoinItems:
+  Menu:
+    id: '345'
+    slot: 1
+    name: '&eНавигация &7(Правый клик)'
+    command: 'gui open menu'
+    amount: 1
+    drop: true
+    move: true

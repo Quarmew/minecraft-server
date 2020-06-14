@@ -1,0 +1,143 @@
+# This is the main configuration file for Spigot.
+# As you can see, there's tons to configure. Some options may impact gameplay, so use
+# with caution, and make sure you know what each option does before configuring.
+# For a reference for any variable inside this file, check out the Spigot wiki at
+# http://www.spigotmc.org/wiki/spigot-configuration/
+# 
+# If you need help with the configuration or have any questions related to Spigot,
+# join us at the IRC or drop by our forums and leave a post.
+# 
+# IRC: #spigot @ irc.spi.gt ( http://www.spigotmc.org/pages/irc/ )
+# Forums: http://www.spigotmc.org/
+
+config-version: 8
+settings:
+  debug: false
+  save-user-cache-on-stop-only: true
+  bungeecord: false
+  late-bind: false
+  sample-count: 12
+  player-shuffle: 0
+  user-cache-size: 1000
+  int-cache-limit: 1024
+  timeout-time: 60
+  restart-on-crash: true
+  restart-script: ./start.sh
+  netty-threads: 8
+  attribute:
+    maxHealth:
+      max: 2048.0
+    movementSpeed:
+      max: 2048.0
+    attackDamage:
+      max: 2048.0
+  filter-creative-items: true
+  moved-wrongly-threshold: 0.0625
+  moved-too-quickly-threshold: 100.0
+commands:
+  tab-complete: false
+  log: true
+  spam-exclusions:
+  - /skull
+  replace-commands:
+  - setblock
+  - summon
+  - testforblock
+  - tellraw
+  - me
+  silent-commandblock-console: false
+messages:
+  whitelist: На сервере ведутся работы, подождите, пожалуйста!
+  unknown-command: §7Данной команды не существует ваш §9Mag§fWorld
+  server-full: §cСервер переполнен! Приобретите §f[§6Premium§f] §cчтобы заходить на переполненный сервер!
+  outdated-client: §cНа сервер можно войти только с версии 1.8+
+  outdated-server: §cНа сервер можно войти только с версии 1.8+
+  restart: §cПожалуйста, перезайдите через 10 секунд!
+stats:
+  disable-saving: true
+  forced-stats: {}
+world-settings:
+  default:
+    verbose: false
+    item-despawn-rate: 6000
+    merge-radius:
+      item: 2.0
+      exp: 3.0
+    arrow-despawn-rate: 2400
+    view-distance: 4
+    enable-zombie-pigmen-portal-spawns: false
+    wither-spawn-sound-radius: 0
+    chunks-per-tick: 400
+    clear-tick-list: true
+    mob-spawn-range: 4
+    anti-xray:
+      enabled: true
+      engine-mode: 2
+      hide-blocks:
+      - 14
+      - 15
+      - 16
+      - 21
+      - 48
+      - 49
+      - 54
+      - 56
+      - 73
+      - 74
+      - 82
+      - 129
+      - 130
+      replace-blocks:
+      - 1
+      - 5
+    nerf-spawner-mobs: false
+    growth:
+      cactus-modifier: 10
+      cane-modifier: 10
+      melon-modifier: 10
+      mushroom-modifier: 10
+      pumpkin-modifier: 10
+      sapling-modifier: 10
+      wheat-modifier: 10
+      netherwart-modifier: 100
+    entity-activation-range:
+      animals: 16
+      monsters: 24
+      misc: 12
+    entity-tracking-range:
+      players: 24
+      animals: 24
+      monsters: 24
+      misc: 16
+      other: 24
+    ticks-per:
+      hopper-transfer: 8
+      hopper-check: 8
+    hopper-amount: 3
+    random-light-updates: false
+    save-structure-info: false
+    max-bulk-chunks: 5
+    max-entity-collisions: 2
+    seed-village: 10387312
+    seed-feature: 14357617
+    hunger:
+      walk-exhaustion: 0.2
+      sprint-exhaustion: 0.8
+      combat-exhaustion: 0.3
+      regen-exhaustion: 3.0
+    max-tnt-per-tick: 100
+    max-tick-time:
+      tile: 16
+      entity: 32
+    zombie-aggressive-towards-villager: false
+    hanging-tick-frequency: 100
+    dragon-death-sound-radius: 0
+timings:
+  enabled: true
+  verbose: true
+  server-name-privacy: false
+  hidden-config-entries:
+  - database
+  - settings.bungeecord-addresses
+  history-interval: 300
+  history-length: 3600

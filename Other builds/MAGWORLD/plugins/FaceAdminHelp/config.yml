@@ -1,0 +1,12 @@
+# Создатель - vk.com/cfone
+# Skype - cfone1337
+# Права: answer.use / answer.reload / answer.admin
+
+permissions: "answer.use"
+perm-other: "answer.admin"
+non-perm-msg: "&f[&eMagWorld&f] §fУ Вас §cнедостаточно §fправ. Купи донат на сайте - §cmagworldmc.mcdonate.ru"
+non-online-player: " §f[§eПомощь§f] §fИгрока нет на сервере"
+successful-answer: " §f[§eПомощь§f] §fУспешно отправлено игроку §e{name} §f- §e{msg}"
+other-answer: "§f[§eПомощь§f] §e{adminname} §fответил §e{name}§f - §e{msg}"
+usage: ' §f[§eПомощь§f] §fИспользуй - §e/answer §f[§eНик§f] §f[§eТекст§f]'
+format: '§f[§eПомощь§f] §e{adminname}§f вам ответил - §e{msg}'

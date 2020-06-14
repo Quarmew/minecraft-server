@@ -1,0 +1,289 @@
+command: 'shop'
+chestcommands: true
+menu-settings:
+  name: 'Магазин (Блоки)      страница №1'
+  rows: 6
+
+block-1:
+  AMOUNT: 4
+  PRICE: 100
+  DATA-VALUE: 0
+  COMMAND: 'give: 17, 4'
+  NAME: '&aДуб'
+  LORE:
+    - '&7Количество: &a4 &7штуки'
+    - '&7Стоимость: &a100 &7монет.'
+  ID: 17
+  KEEP-OPEN: true
+  POSITION-X: 2
+  POSITION-Y: 2
+  
+  
+block-2:
+  AMOUNT: 4
+  PRICE: 100
+  DATA-VALUE: 1
+  COMMAND: 'give: 17:1, 4'
+  NAME: '&aЕль'
+  LORE:
+    - '&7Количество: &a4 &7штуки'
+    - '&7Стоимость: &a100 &7монет.'
+  ID: 17
+  KEEP-OPEN: true
+  POSITION-X: 3
+  POSITION-Y: 2
+  
+  
+block-3:
+  AMOUNT: 4
+  PRICE: 100
+  DATA-VALUE: 2
+  COMMAND: 'give: 17:2, 4'
+  NAME: '&aБереза'
+  LORE:
+    - '&7Количество: &a4 &7штуки'
+    - '&7Стоимость: &a100 &7монет.'
+  ID: 17
+  KEEP-OPEN: true
+  POSITION-X: 4
+  POSITION-Y: 2
+  
+  
+block-4:
+  AMOUNT: 4
+  PRICE: 100
+  DATA-VALUE: 3
+  COMMAND: 'give: 17:3, 4'
+  NAME: '&aТропическое дерево'
+  LORE:
+    - '&7Количество: &a4 &7штуки'
+    - '&7Стоимость: &a100 &7монет.'
+  ID: 17
+  KEEP-OPEN: true
+  POSITION-X: 5
+  POSITION-Y: 2
+ 
+block-5:
+  AMOUNT: 8
+  PRICE: 200
+  COMMAND: 'give: 89, 8'
+  NAME: '&aСветящийся камень'
+  LORE:
+    - '&7Количество: &a8 &7штук'
+    - '&7Стоимость: &a200 &7монет.'
+  ID: 89
+  KEEP-OPEN: true
+  POSITION-X: 6
+  POSITION-Y: 2
+  
+block-6:
+  AMOUNT: 8
+  PRICE: 200
+  COMMAND: 'give: 91, 8'
+  NAME: '&aСветильник джека'
+  LORE:
+    - '&7Количество: &a8 &7штук'
+    - '&7Стоимость: &a200 &7монет.'
+  ID: 91
+  KEEP-OPEN: true
+  POSITION-X: 7
+  POSITION-Y: 2
+  
+block-7:
+  AMOUNT: 16
+  PRICE: 200
+  COMMAND: 'give: 20, 16'
+  NAME: '&aСтекло'
+  LORE:
+    - '&7Количество: &a16 &7штук'
+    - '&7Стоимость: &a200 &7монет.'
+  ID: 20
+  KEEP-OPEN: true
+  POSITION-X: 8
+  POSITION-Y: 2
+  
+block-8:
+  AMOUNT: 32
+  PRICE: 350
+  COMMAND: 'give: 45, 32'
+  NAME: '&aКирпичи'
+  LORE:
+    - '&7Количество: &a32 &7штуки'
+    - '&7Стоимость: &a350 &7монет.'
+  ID: 45
+  KEEP-OPEN: true
+  POSITION-X: 2
+  POSITION-Y: 3
+  
+block-9:
+  AMOUNT: 32
+  PRICE: 350
+  COMMAND: 'give: 43, 32'
+  DATA-VALUE: 2
+  NAME: '&aКаменные кирпичи'
+  LORE:
+    - '&7Количество: &a32 &7штуки'
+    - '&7Стоимость: &a350 &7монет.'
+  ID: 97
+  KEEP-OPEN: true
+  POSITION-X: 3
+  POSITION-Y: 3
+  
+block-10:
+  AMOUNT: 32
+  PRICE: 350
+  COMMAND: 'give: 114, 32'
+  DATA-VALUE: 0
+  NAME: '&aАдские кирпичи'
+  LORE:
+    - '&7Количество: &a32 &7штуки'
+    - '&7Стоимость: &a350 &7монет.'
+  ID: 114
+  KEEP-OPEN: true
+  POSITION-X: 4
+  POSITION-Y: 3
+  
+block-11:
+  AMOUNT: 32
+  PRICE: 350
+  COMMAND: 'give: 155, 32'
+  DATA-VALUE: 0
+  NAME: '&aКварцевый блок'
+  LORE:
+    - '&7Количество: &a32 &7штуки'
+    - '&7Стоимость: &a350 &7монет.'
+  ID: 155
+  KEEP-OPEN: true
+  POSITION-X: 5
+  POSITION-Y: 3
+  
+block-15:
+  AMOUNT: 32
+  PRICE: 350
+  COMMAND: 'give: 159:1, 32'
+  DATA-VALUE: 1
+  NAME: '&aОбоженная глина'
+  LORE:
+    - '&7Количество: &a32 &7штуки'
+    - '&7Стоимость: &a350 &7монет.'
+  ID: 159
+  KEEP-OPEN: true
+  POSITION-X: 6
+  POSITION-Y: 3
+ 
+block-16:
+  AMOUNT: 16
+  PRICE: 400
+  COMMAND: 'give: 47, 32'
+  DATA-VALUE: 0
+  NAME: '&aКнижная полка'
+  LORE:
+    - '&7Количество: &a16 &7штук'
+    - '&7Стоимость: &a400 &7монет.'
+  ID: 47
+  KEEP-OPEN: true
+  POSITION-X: 7
+  POSITION-Y: 3
+  
+block-17:
+  AMOUNT: 32
+  PRICE: 400
+  COMMAND: 'give: 170, 32'
+  DATA-VALUE: 0
+  NAME: '&aСноп сена'
+  LORE:
+    - '&7Количество: &a32 &7штуки'
+    - '&7Стоимость: &a400 &7монет.'
+  ID: 170
+  KEEP-OPEN: true
+  POSITION-X: 8
+  POSITION-Y: 3
+  
+block-18:
+  AMOUNT: 32
+  PRICE: 450
+  COMMAND: 'give: 168, 32'
+  DATA-VALUE: 0
+  NAME: '&aПризмарин'
+  LORE:
+    - '&7Количество: &a32 &7штуки'
+    - '&7Стоимость: &a450 &7монет.'
+  ID: 168
+  KEEP-OPEN: true
+  POSITION-X: 2
+  POSITION-Y: 4
+  
+block-19:
+  AMOUNT: 16
+  PRICE: 450
+  COMMAND: 'give: 169, 16'
+  DATA-VALUE: 0
+  NAME: '&aМорской фонарь'
+  LORE:
+    - '&7Количество: &a16 &7штук'
+    - '&7Стоимость: &a450 &7монет.'
+  ID: 169
+  KEEP-OPEN: true
+  POSITION-X: 3
+  POSITION-Y: 4
+  
+block-20:
+  AMOUNT: 32
+  PRICE: 400
+  COMMAND: 'give: 43:1, 32'
+  DATA-VALUE: 1
+  NAME: '&aПесчаник'
+  LORE:
+    - '&7Количество: &a32 &7штуки'
+    - '&7Стоимость: &a400 &7монет.'
+  ID: 24
+  KEEP-OPEN: true
+  POSITION-X: 4
+  POSITION-Y: 4
+  
+block-21:
+  AMOUNT: 32
+  PRICE: 400
+  COMMAND: 'give: 179, 32'
+  DATA-VALUE: 0
+  NAME: '&aКрасный песчаник'
+  LORE:
+    - '&7Количество: &a32 &7штуки'
+    - '&7Стоимость: &a400 &7монет.'
+  ID: 179
+  KEEP-OPEN: true
+  POSITION-X: 5
+  POSITION-Y: 4
+  
+block-22:
+  AMOUNT: 32
+  PRICE: 400
+  COMMAND: 'give: 35, 32'
+  DATA-VALUE: 0
+  NAME: '&aШерсть'
+  LORE:
+    - '&7Количество: &a32 &7штуки'
+    - '&7Стоимость: &a400 &7монет.'
+  ID: 35
+  KEEP-OPEN: true
+  POSITION-X: 6
+  POSITION-Y: 4
+  
+block-222:
+  COMMAND: 'gui open menu'
+  DATA-VALUE: 0
+  NAME: '&aНазад'
+  LORE:
+  ID: 166
+  KEEP-OPEN: true
+  POSITION-X: 8
+  POSITION-Y: 5
+block-22:
+  COMMAND: 'gui open buy2'
+  DATA-VALUE: 0
+  NAME: '&aСледующая страница'
+  LORE:
+  ID: 356
+  KEEP-OPEN: true
+  POSITION-X: 7
+  POSITION-Y: 5

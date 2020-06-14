@@ -1,0 +1,117 @@
+chestcommands: true
+menu-settings:
+  name: 'Магазин (Декорации) страница №3'
+  rows: 6
+
+block-383-93:
+  AMOUNT: 1
+  PRICE: 850
+  COMMAND: 'give: 145, 1'
+  NAME: '&aНаковальня'
+  LORE:
+    - '&7Количество: &a1 &7штука'
+    - '&7Стоимость: &a850 &7монет.'
+  ID: 145
+  KEEP-OPEN: true
+  POSITION-X: 2
+  POSITION-Y: 2
+  
+block-383-934:
+  AMOUNT: 1
+  PRICE: 850
+  COMMAND: 'give: 145, 1'
+  NAME: '&aПроигрыватель'
+  LORE:
+    - '&7Количество: &a1 &7штука'
+    - '&7Стоимость: &a300 &7монет.'
+  ID: 84
+  KEEP-OPEN: true
+  POSITION-X: 3
+  POSITION-Y: 2
+  
+block-3833-934:
+  AMOUNT: 1
+  PRICE: 900
+  COMMAND: 'give: 116, 1'
+  NAME: '&aСтол зачарований'
+  LORE:
+    - '&7Количество: &a1 &7штука'
+    - '&7Стоимость: &a900 &7монет.'
+  ID: 116
+  KEEP-OPEN: true
+  POSITION-X: 4
+  POSITION-Y: 2
+  
+block-3833-93434:
+  AMOUNT: 1
+  PRICE: 600
+  COMMAND: 'give: 130, 1'
+  NAME: '&aСундук эндера'
+  LORE:
+    - '&7Количество: &a1 &7штука'
+    - '&7Стоимость: &a600 &7монет.'
+  ID: 130
+  KEEP-OPEN: true
+  POSITION-X: 5
+  POSITION-Y: 2
+  
+block-3833-934334:
+  AMOUNT: 16
+  PRICE: 150
+  COMMAND: 'give: 65, 16'
+  NAME: '&aЛестница'
+  LORE:
+    - '&7Количество: &a16 &7штук'
+    - '&7Стоимость: &a150 &7монет.'
+  ID: 65
+  KEEP-OPEN: true
+  POSITION-X: 6
+  POSITION-Y: 2
+  
+block-3833-9344445:
+  AMOUNT: 16
+  PRICE: 300
+  COMMAND: 'give: 101, 16'
+  NAME: '&aЖелезные прутья'
+  LORE:
+    - '&7Количество: &a16 &7штук'
+    - '&7Стоимость: &a300 &7монет.'
+  ID: 101
+  KEEP-OPEN: true
+  POSITION-X: 7
+  POSITION-Y: 2
+  
+block-3833-93444:
+  AMOUNT: 8
+  PRICE: 250
+  COMMAND: 'give: 323, 8'
+  NAME: '&aТаблички'
+  LORE:
+    - '&7Количество: &a8 &7штук'
+    - '&7Стоимость: &a250 &7монет.'
+  ID: 323
+  KEEP-OPEN: true
+  POSITION-X: 8
+  POSITION-Y: 2
+  
+block-3833-93444433:
+  AMOUNT: 8
+  PRICE: 250
+  COMMAND: 'give: 323, 8'
+  NAME: '&aТаблички'
+  LORE:
+    - '&7Количество: &a8 &7штук'
+    - '&7Стоимость: &a250 &7монет.'
+  ID: 323
+  KEEP-OPEN: true
+  POSITION-X: 8
+  POSITION-Y: 2
+block-222:
+  COMMAND: 'gui open buy2'
+  DATA-VALUE: 0
+  NAME: '&aНазад'
+  LORE:
+  ID: 166
+  KEEP-OPEN: true
+  POSITION-X: 8
+  POSITION-Y: 5

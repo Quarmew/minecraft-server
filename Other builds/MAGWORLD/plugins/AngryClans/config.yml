@@ -1,0 +1,16 @@
+main:
+  prefix: '&f[&cClans&f] '
+  name-length: 32
+  tag-length: 6
+  upgrade-cost: 50
+  create-cost: 100
+  tag-change-cost: 10
+  welcome-change-cost: 5
+  max-players-per-warp: 10
+backend: sqlite # Values can be "sqlite" and "mysql"
+mysql: # MySQL database location
+  host: loaclhost
+  port: 3306
+  database: UW
+  user: root
+  pass: vKq82msx

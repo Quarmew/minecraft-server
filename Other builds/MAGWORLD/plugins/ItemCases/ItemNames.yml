@@ -1,0 +1,388 @@
+AIR: Air
+STONE: Stone
+GRASS: Grass
+DIRT: Dirt
+COBBLESTONE: Cobblestone
+WOOD: Wood
+SAPLING: Sapling
+BEDROCK: Bedrock
+WATER: Water
+STATIONARY_WATER: Stationary Water
+LAVA: Lava
+STATIONARY_LAVA: Stationary Lava
+SAND: Sand
+GRAVEL: Gravel
+GOLD_ORE: Gold Ore
+IRON_ORE: Iron Ore
+COAL_ORE: Coal Ore
+LOG: Log
+LEAVES: Leaves
+SPONGE: Sponge
+GLASS: Glass
+LAPIS_ORE: Lapis Ore
+LAPIS_BLOCK: Lapis Block
+DISPENSER: Dispenser
+SANDSTONE: Sandstone
+NOTE_BLOCK: Note Block
+BED_BLOCK: Bed Block
+POWERED_RAIL: Powered Rail
+DETECTOR_RAIL: Detector Rail
+PISTON_STICKY_BASE: Piston Sticky Base
+WEB: Web
+LONG_GRASS: Long Grass
+DEAD_BUSH: Dead Bush
+PISTON_BASE: Piston Base
+PISTON_EXTENSION: Piston Extension
+WOOL: Wool
+PISTON_MOVING_PIECE: Piston Moving Piece
+YELLOW_FLOWER: Yellow Flower
+RED_ROSE: Red Rose
+BROWN_MUSHROOM: Brown Mushroom
+RED_MUSHROOM: Red Mushroom
+GOLD_BLOCK: Gold Block
+IRON_BLOCK: Iron Block
+DOUBLE_STEP: Double Step
+STEP: Step
+BRICK: Brick
+TNT: TnT
+BOOKSHELF: Bookshelf
+MOSSY_COBBLESTONE: Mossy Cobblestone
+OBSIDIAN: Obsidian
+TORCH: Torch
+FIRE: Fire
+MOB_SPAWNER: Mob Spawner
+WOOD_STAIRS: Wood Stairs
+CHEST: Chest
+REDSTONE_WIRE: Redstone Wire
+DIAMOND_ORE: Diamond Ore
+DIAMOND_BLOCK: Diamond Block
+WORKBENCH: Workbench
+CROPS: Crops
+SOIL: Soil
+FURNACE: Furnace
+BURNING_FURNACE: Burning Furnace
+SIGN_POST: Sign Post
+WOODEN_DOOR: Wooden Door
+LADDER: Ladder
+RAILS: Rails
+COBBLESTONE_STAIRS: Cobblestone Stairs
+WALL_SIGN: Wall Sign
+LEVER: Lever
+STONE_PLATE: Stone Plate
+IRON_DOOR_BLOCK: Iron Door Block
+WOOD_PLATE: Wood Plate
+REDSTONE_ORE: Redstone Ore
+GLOWING_REDSTONE_ORE: Glowing Redstone Ore
+REDSTONE_TORCH_OFF: Redstone Torch Off
+REDSTONE_TORCH_ON: Redstone Torch On
+STONE_BUTTON: Stone Button
+SNOW: Snow
+ICE: Ice
+SNOW_BLOCK: Snow Block
+CACTUS: Cactus
+CLAY: Clay
+SUGAR_CANE_BLOCK: Sugar Cane Block
+JUKEBOX: Jukebox
+FENCE: Fence
+PUMPKIN: Pumpkin
+NETHERRACK: Netherrack
+SOUL_SAND: Soul Sand
+GLOWSTONE: Glowstone
+PORTAL: Portal
+JACK_O_LANTERN: Jack O Lantern
+CAKE_BLOCK: Cake Block
+DIODE_BLOCK_OFF: Diode Block Off
+DIODE_BLOCK_ON: Diode Block On
+LOCKED_CHEST: Locked Chest
+TRAP_DOOR: Trap Door
+MONSTER_EGGS: Monster Eggs
+SMOOTH_BRICK: Smooth Brick
+HUGE_MUSHROOM_1: Huge Mushroom 1
+HUGE_MUSHROOM_2: Huge Mushroom 2
+IRON_FENCE: Iron Fence
+THIN_GLASS: Thin Glass
+MELON_BLOCK: Melon Block
+PUMPKIN_STEM: Pumpkin Stem
+MELON_STEM: Melon Stem
+VINE: Vine
+FENCE_GATE: Fence Gate
+BRICK_STAIRS: Brick Stairs
+SMOOTH_STAIRS: Smooth Stairs
+MYCEL: Mycelium
+WATER_LILY: Water Lily
+NETHER_BRICK: Nether Brick
+NETHER_FENCE: Nether Fence
+NETHER_BRICK_STAIRS: Nether Brick Stairs
+NETHER_WARTS: Nether Warts
+ENCHANTMENT_TABLE: Enchantment Table
+BREWING_STAND: Brewing Stand
+CAULDRON: Cauldron
+ENDER_PORTAL: Ender Portal
+ENDER_PORTAL_FRAME: Ender Portal Frame
+ENDER_STONE: Ender Stone
+DRAGON_EGG: Dragon Egg
+REDSTONE_LAMP_OFF: Redstone Lamp Off
+REDSTONE_LAMP_ON: Redstone Lamp On
+WOOD_DOUBLE_STEP: Wood Double Step
+WOOD_STEP: Wood Step
+COCOA: Cocoa
+SANDSTONE_STAIRS: Sandstone Stairs
+EMERALD_ORE: Emerald Ore
+ENDER_CHEST: Ender Chest
+TRIPWIRE_HOOK: Tripwire Hook
+TRIPWIRE: Tripwire
+EMERALD_BLOCK: Emerald Block
+SPRUCE_WOOD_STAIRS: Spruce Wood Stairs
+BIRCH_WOOD_STAIRS: Birch Wood Stairs
+JUNGLE_WOOD_STAIRS: Jungle Wood Stairs
+COMMAND: Command
+BEACON: Beacon
+COBBLE_WALL: Cobble Wall
+FLOWER_POT: Flower Pot
+CARROT: Carrot
+POTATO: Potato
+WOOD_BUTTON: Wood Button
+SKULL: Skull
+ANVIL: Anvil
+TRAPPED_CHEST: Trapped Chest
+GOLD_PLATE: Gold Plate
+IRON_PLATE: Iron Plate
+REDSTONE_COMPARATOR_OFF: Redstone Comparator Off
+REDSTONE_COMPARATOR_ON: Redstone Comparator On
+DAYLIGHT_DETECTOR: Daylight Detector
+REDSTONE_BLOCK: Redstone Block
+QUARTZ_ORE: Quartz Ore
+HOPPER: Hopper
+QUARTZ_BLOCK: Quartz Block
+QUARTZ_STAIRS: Quartz Stairs
+ACTIVATOR_RAIL: Activator Rail
+DROPPER: Dropper
+IRON_SPADE: Iron Spade
+IRON_PICKAXE: Iron Pickaxe
+IRON_AXE: Iron Axe
+FLINT_AND_STEEL: Flint And Steel
+APPLE: Apple
+BOW: Bow
+ARROW: Arrow
+COAL: Coal
+DIAMOND: Diamond
+IRON_INGOT: Iron Ingot
+GOLD_INGOT: Gold Ingot
+IRON_SWORD: Iron Sword
+WOOD_SWORD: Wood Sword
+WOOD_SPADE: Wood Spade
+WOOD_PICKAXE: Wood Pickaxe
+WOOD_AXE: Wood Axe
+STONE_SWORD: Stone Sword
+STONE_SPADE: Stone Spade
+STONE_PICKAXE: Stone Pickaxe
+STONE_AXE: Stone Axe
+DIAMOND_SWORD: Diamond Sword
+DIAMOND_SPADE: Diamond Spade
+DIAMOND_PICKAXE: Diamond Pickaxe
+DIAMOND_AXE: Diamond Axe
+STICK: Stick
+BOWL: Bowl
+MUSHROOM_SOUP: Mushroom Soup
+GOLD_SWORD: Gold Sword
+GOLD_SPADE: Gold Spade
+GOLD_PICKAXE: Gold Pickaxe
+GOLD_AXE: Gold Axe
+STRING: String
+FEATHER: Feather
+SULPHUR: Gunpowder
+WOOD_HOE: Wood Hoe
+STONE_HOE: Stone Hoe
+IRON_HOE: Iron Hoe
+DIAMOND_HOE: Diamond Hoe
+GOLD_HOE: Gold Hoe
+SEEDS: Seeds
+WHEAT: Wheat
+BREAD: Bread
+LEATHER_HELMET: Leather Helmet
+LEATHER_CHESTPLATE: Leather Chestplate
+LEATHER_LEGGINGS: Leather Leggings
+LEATHER_BOOTS: Leather Boots
+CHAINMAIL_HELMET: Chainmail Helmet
+CHAINMAIL_CHESTPLATE: Chainmail Chestplate
+CHAINMAIL_LEGGINGS: Chainmail Leggings
+CHAINMAIL_BOOTS: Chainmail Boots
+IRON_HELMET: Iron Helmet
+IRON_CHESTPLATE: Iron Chestplate
+IRON_LEGGINGS: Iron Leggings
+IRON_BOOTS: Iron Boots
+DIAMOND_HELMET: Diamond Helmet
+DIAMOND_CHESTPLATE: Diamond Chestplate
+DIAMOND_LEGGINGS: Diamond Leggings
+DIAMOND_BOOTS: Diamond Boots
+GOLD_HELMET: Gold Helmet
+GOLD_CHESTPLATE: Gold Chestplate
+GOLD_LEGGINGS: Gold Leggings
+GOLD_BOOTS: Gold Boots
+FLINT: Flint
+PORK: Raw Pork
+GRILLED_PORK: Cooked Pork
+PAINTING: Painting
+GOLDEN_APPLE: Golden Apple
+SIGN: Sign
+WOOD_DOOR: Wood Door
+BUCKET: Bucket
+WATER_BUCKET: Water Bucket
+LAVA_BUCKET: Lava Bucket
+MINECART: Minecart
+SADDLE: Saddle
+IRON_DOOR: Iron Door
+REDSTONE: Redstone
+SNOW_BALL: Snow Ball
+BOAT: Boat
+LEATHER: Leather
+MILK_BUCKET: Milk Bucket
+CLAY_BRICK: Clay Brick
+CLAY_BALL: Clay Ball
+SUGAR_CANE: Sugar Cane
+PAPER: Paper
+BOOK: Book
+SLIME_BALL: Slime Ball
+STORAGE_MINECART: Storage Minecart
+POWERED_MINECART: Powered Minecart
+EGG: Egg
+COMPASS: Compass
+FISHING_ROD: Fishing Rod
+WATCH: Clock
+GLOWSTONE_DUST: Glowstone Dust
+RAW_FISH: Raw Fish
+COOKED_FISH: Cooked Fish
+INK_SACK: Dye
+BONE: Bone
+SUGAR: Sugar
+CAKE: Cake
+BED: Bed
+DIODE: Redstone Repeater
+COOKIE: Cookie
+MAP: Map
+SHEARS: Shears
+MELON: Melon
+PUMPKIN_SEEDS: Pumpkin Seeds
+MELON_SEEDS: Melon Seeds
+RAW_BEEF: Raw Beef
+COOKED_BEEF: Cooked Beef
+RAW_CHICKEN: Raw Chicken
+COOKED_CHICKEN: Cooked Chicken
+ROTTEN_FLESH: Rotten Flesh
+ENDER_PEARL: Ender Pearl
+BLAZE_ROD: Blaze Rod
+GHAST_TEAR: Ghast Tear
+GOLD_NUGGET: Gold Nugget
+NETHER_STALK: Nether Stalk
+POTION: Potion
+GLASS_BOTTLE: Glass Bottle
+SPIDER_EYE: Spider Eye
+FERMENTED_SPIDER_EYE: Fermented Spider Eye
+BLAZE_POWDER: Blaze Powder
+MAGMA_CREAM: Magma Cream
+BREWING_STAND_ITEM: Brewing Stand Item
+CAULDRON_ITEM: Cauldron Item
+EYE_OF_ENDER: Eye Of Ender
+SPECKLED_MELON: Glistening Melon
+MONSTER_EGG: Monster Egg
+EXP_BOTTLE: Exp Bottle
+FIREBALL: Fireball
+BOOK_AND_QUILL: Book And Quill
+WRITTEN_BOOK: Written Book
+EMERALD: Emerald
+ITEM_FRAME: Item Frame
+FLOWER_POT_ITEM: Flower Pot
+CARROT_ITEM: Carrot Item
+POTATO_ITEM: Potato Item
+BAKED_POTATO: Baked Potato
+POISONOUS_POTATO: Poisonous Potato
+EMPTY_MAP: Empty Map
+GOLDEN_CARROT: Golden Carrot
+SKULL_ITEM: Skull
+CARROT_STICK: Carrot Stick
+NETHER_STAR: Nether Star
+PUMPKIN_PIE: Pumpkin Pie
+FIREWORK: Firework
+FIREWORK_CHARGE: Firework Charge
+ENCHANTED_BOOK: Enchanted Book
+REDSTONE_COMPARATOR: Redstone Comparator
+NETHER_BRICK_ITEM: Nether Brick Item
+QUARTZ: Quartz
+EXPLOSIVE_MINECART: Explosive Minecart
+HOPPER_MINECART: Hopper Minecart
+GOLD_RECORD: Gold Record
+GREEN_RECORD: Green Record
+RECORD_3: Record 3
+RECORD_4: Record 4
+RECORD_5: Record 5
+RECORD_6: Record 6
+RECORD_7: Record 7
+RECORD_8: Record 8
+RECORD_9: Record 9
+RECORD_10: Record 10
+RECORD_11: Record 11
+RECORD_12: Record 12
+PLAYER_HEAD: Player Head
+NOTCH_APPLE: Notch Apple
+STAINED_GLASS: Stained Glass
+STAINED_CLAY: Stained Clay
+STAINED_GLASS_PANE: Stained Glass Pane
+LEAVES_2: Leaves 2
+LOG_2: Log 2
+ACACIA_STAIRS: Acacia Stairs
+DARK_OAK_STAIRS: Dark Oak Stairs
+SLIME_BLOCK: Slime Block
+BARRIER: Barrier
+IRON_TRAPDOOR: Iron Trapdoor
+PRISMARINE: Prismarine
+SEA_LANTERN: Sea Lantern
+HAY_BLOCK: Hay Block
+CARPET: Carpet
+HARD_CLAY: Hard Clay
+COAL_BLOCK: Coal Block
+PACKED_ICE: Packed Ice
+DOUBLE_PLANT: Double Plant
+STANDING_BANNER: Standing Banner
+WALL_BANNER: Wall Banner
+DAYLIGHT_DETECTOR_INVERTED: Daylight Detector Inverted
+RED_SANDSTONE: Red Sandstone
+RED_SANDSTONE_STAIRS: Red Sandstone Stairs
+DOUBLE_STONE_SLAB2: Double Stone Slab2
+STONE_SLAB2: Stone Slab2
+SPRUCE_FENCE_GATE: Spruce Fence Gate
+BIRCH_FENCE_GATE: Birch Fence Gate
+JUNGLE_FENCE_GATE: Jungle Fence Gate
+DARK_OAK_FENCE_GATE: Dark Oak Fence Gate
+ACACIA_FENCE_GATE: Acacia Fence Gate
+SPRUCE_FENCE: Spruce Fence
+BIRCH_FENCE: Birch Fence
+JUNGLE_FENCE: Jungle Fence
+DARK_OAK_FENCE: Dark Oak Fence
+ACACIA_FENCE: Acacia Fence
+SPRUCE_DOOR: Spruce Door
+BIRCH_DOOR: Birch Door
+JUNGLE_DOOR: Jungle Door
+ACACIA_DOOR: Acacia Door
+DARK_OAK_DOOR: Dark Oak Door
+PRISMARINE_SHARD: Prismarine Shard
+PRISMARINE_CRYSTALS: Prismarine Crystals
+RABBIT: Rabbit
+COOKED_RABBIT: Cooked Rabbit
+RABBIT_STEW: Rabbit Stew
+RABBIT_FOOT: Rabbit Foot
+RABBIT_HIDE: Rabbit Hide
+ARMOR_STAND: Armor Stand
+IRON_BARDING: Iron Horse Armor
+GOLD_BARDING: Gold Horse Armor
+DIAMOND_BARDING: Diamond Horse Armor
+LEASH: Leash
+NAME_TAG: Name Tag
+COMMAND_MINECART: Command Minecart
+MUTTON: Mutton
+COOKED_MUTTON: Cooked Mutton
+BANNER: Banner
+SPRUCE_DOOR_ITEM: Spruce Door Item
+BIRCH_DOOR_ITEM: Birch Door Item
+JUNGLE_DOOR_ITEM: Jungle Door Item
+ACACIA_DOOR_ITEM: Acacia Door Item
+DARK_OAK_DOOR_ITEM: Dark Oak Door Item

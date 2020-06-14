@@ -1,0 +1,727 @@
+savebackconfig: true
+configversion:
+  notify: true
+  created: 785
+  saved: 785
+logging:
+  active: true
+  maxqueuesize: 5000
+  extended:
+    status: false
+    allviolations:
+      debug: true
+      debugonly: false
+      backend:
+        trace: false
+        notify: false
+  backend:
+    console:
+      active: false
+      asynchronous: true
+    file:
+      active: true
+      prefix: ''
+      filename: nocheatplus.log
+    ingamechat:
+      active: false
+      prefix: ''
+      subscriptions: false
+data:
+  expiration:
+    active: false
+    duration: 60
+    history: false
+  consistencychecks:
+    active: true
+    interval: 10
+    maxtime: 2
+    suppresswarnings: false
+protection:
+  plugins:
+    hide:
+      active: true
+      nopermission:
+        message: §cНеизвестная команда, возможно вы ошиблись.
+        commands:
+        - plugins
+        - pex
+        - permissionsex:pex
+        - pt
+        - ept
+        - 'worldguard:'
+        - epowertool
+        - powertool
+        - null: null
+        - bukkit:plugins
+        - bukkit:?
+        - bukkit:help
+        - icanhasbukkit
+        - version
+        - ver
+        - bukkit:ver
+        - bukkit:about
+        - bukkit:pl
+        - bukkit:msg
+        - bukkit:kill
+        - bukkit:tell
+        - bukkit:w
+        - bukkit:me
+        - pl
+        - plugins
+        - about
+        - rg delete spawn
+        - rg delete pvp
+        - rg delete pvpgora
+        - rg delete mine1
+        - region delete spawn
+        - region delete pvp
+        - region delete pvpgora
+        - region delete mine1
+        - plugins
+        - version
+        - icanhasbukkit
+        - mcmmo
+        - ncp
+        - version
+        - icanhasbukkit
+        - about
+      unknowncommand:
+        message: §cНеизвестная команда, возможно вы ошиблись.
+        commands:
+        - plugins
+        - pex
+        - permissionsex:pex
+        - pt
+        - ept
+        - 'worldguard:'
+        - epowertool
+        - powertool
+        - null: null
+        - bukkit:plugins
+        - bukkit:?
+        - bukkit:help
+        - icanhasbukkit
+        - version
+        - ver
+        - bukkit:ver
+        - bukkit:about
+        - bukkit:pl
+        - bukkit:msg
+        - bukkit:kill
+        - bukkit:tell
+        - bukkit:w
+        - bukkit:me
+        - pl
+        - plugins
+        - about
+        - rg delete spawn
+        - rg delete sp
+        - rg delete pvp
+        - rg delete pvpgora
+        - rg delete build
+        - region delete spawn
+        - region delete sp
+        - region delete pvp
+        - region delete build
+        - mcmmo
+        - ncp
+        - regions
+        - me
+  commands:
+    consoleonly:
+      active: true
+      message: §cНеизвестная команда, возможно вы ошиблись.
+      commands:
+      - pex
+      - permissionsex:pex
+      - pt
+      - ept
+      - 'worldguard:'
+      - epowertool
+      - powertool
+      - null: null
+      - bukkit:plugins
+      - bukkit:?
+      - bukkit:help
+      - icanhasbukkit
+      - version
+      - ver
+      - bukkit:ver
+      - bukkit:about
+      - bukkit:pl
+      - bukkit:msg
+      - bukkit:kill
+      - bukkit:tell
+      - bukkit:w
+      - bukkit:me
+      - pl
+      - plugins
+      - about
+      - rg delete spawn
+      - rg delete sp
+      - rg delete pvp
+      - rg delete pvpgora
+      - rg delete build
+      - region delete spawn
+      - region delete sp
+      - region delete pvp
+      - region delete build
+      - pex
+      - banmanager: null
+      - essentials:tphere
+      - essentials:tp
+      - permissionsex:pex
+      - pt
+      - ept
+      - 'worldguard:'
+      - ancientgates:gate
+      - gate setexec
+      - epowertool
+      - powertool
+      - gm 3
+      - gamemode 3
+      - gamemode Spectator
+      - gm Spectator
+      - mcmmo
+      - nocheatplus
+      - ml
+      - massivelag
+      - massivecore
+      - massivestore
+      - tps
+      - bukkit
+      - me
+      - op
+      - effect
+      - rg remove spawn
+      - region remove spawn
+      - rg remove sp
+      - region remove sp
+      - rg remove pvp
+      - region remove pvp
+      - rg remove build
+      - region remove build
+      - pt
+      - ept
+      - epowertool
+      - powertool
+      - eptool
+      - ptool
+      - etool
+      - tool
+      - about
+      - halt-activity
+      - spawnmob
+      - pex
+      - gate setexec
+      - 'worldguard:'
+      - pex
+      - banmanager: null
+      - essentials:tphere
+      - essentials:tp
+      - permissionsex:pex
+  clients:
+    motd:
+      active: true
+      allowall: false
+checks:
+  blockbreak:
+    direction:
+      active: true
+      actions: cancel
+    fastbreak:
+      active: true
+      strict: true
+      delay: 100
+      intervalsurvival: 100
+      grace: 2000
+      actions: cancel
+    frequency:
+      active: false
+      intervalcreative: 90
+      intervalsurvival: 40
+      shortterm:
+        ticks: 5
+        limit: 7
+      actions: cancel vl>60 cancel cmd:kickfrequency
+    noswing:
+      active: true
+      actions: cance
+    reach:
+      active: true
+      actions: cancel
+    wrongblock:
+      active: true
+      level: 10
+      actions: cancel vl>30 cancel cmd:kickwb
+  blockinteract:
+    direction:
+      active: true
+      actions: cancel
+    reach:
+      active: true
+      actions: cancel
+    speed:
+      active: true
+      interval: 2000
+      limit: 60
+      actions: cancel vl>450 cancel cmd:kickfrequency
+    visible:
+      active: true
+      actions: cancel
+  blockplace:
+    against:
+      active: true
+      actions: cancel
+    autosign:
+      active: true
+      skipempty: false
+      actions: cancel
+    direction:
+      active: true
+      actions: cancel
+    fastplace:
+      active: true
+      limit: 22
+      shortterm:
+        ticks: 10
+        limit: 6
+      actions: cancel
+    reach:
+      active: true
+      actions: cancel
+    noswing:
+      active: true
+      exceptions:
+      - WATER_LILY
+      - FLINT_AND_STEEL
+      actions: cancel
+    speed:
+      active: true
+      interval: 45
+      actions: cancel vl>1000 cancel cmd:kickfrequency
+  chat:
+    captcha:
+      active: false
+      skip:
+        commands: false
+      characters: abcdefghjkmnpqrtuvwxyzABCDEFGHJKMNPQRTUVWXYZ2346789
+      length: 6
+      question: Введите капчу '&c[captcha]&f' &fдля продолжения.
+      success: ОК, приятной игры!.
+      tries: 3
+      actions: cancel cmd:kick
+    color:
+      active: false
+      actions: cancel
+    commands:
+      active: false
+      exclusions:
+      - fw
+      - info
+      - menu
+      handleaschat: []
+      level: 10
+      shortterm:
+        ticks: 18
+        level: 3
+      actions: cancel cmd:kickcommands
+    text:
+      active: true
+      allowvlreset: true
+      frequency:
+        normal:
+          minimum: 0.0
+          factor: 0.1
+          weight: 6
+          level: 160
+          actions: cancel
+        shortterm:
+          minimum: 2.0
+          factor: 0.7
+          weight: 3.0
+          level: 20.0
+          actions: log:chatfast:0:5:cf cancel cmd:kickchatfast vl>20 log:chatfast:0:5:cf cancel cmd:kickchat1 vl>40 log:chatfast:0:5:cf cancel cmd:kickchat5
+      message:
+        lettercount: 1.0
+        partition: 1.0
+        uppercase: 1.0
+        afterjoin: 1.0
+        nomoving: 1.25
+        repeatviolation: 1.1
+        repeatglobal: 1.3
+        repeatself: 1.5
+        words:
+          lengthav: 1.0
+          lengthmsg: 1.0
+          noletter: 0.0
+      global:
+        active: true
+        weight: 1.0
+        words:
+          active: false
+        prefixes:
+          active: false
+        similarity:
+          active: false
+      player:
+        active: true
+        words:
+          active: true
+        prefixes:
+          active: false
+        similarity:
+          active: true
+    warning:
+      active: true
+      level: 120
+      message: '&f[&cChat&f] Пожалуйста, пишите в чат тише!'
+      timeout: 10
+    relog:
+      active: false
+      timeout: 5000
+      warning:
+        message: ''
+        number: 1
+        timeout: 60000
+      kickmessage: ''
+      actions: cancel cmd:kick
+    logins:
+      active: false
+      startupdelay: 600
+      perworldcount: false
+      seconds: 10
+      limit: 10
+      kickmessage: ''
+  combined:
+    bedleave:
+      active: true
+      actions: cancel cmd:kickbedleave
+    enderpearl:
+      active: true
+      preventclickblock: true
+    improbable:
+      active: true
+      level: 250
+      actions: cancel
+    invulnerable:
+      active: true
+      triggers:
+        always: false
+        falldistance: true
+      initialticks:
+        join: 40
+      ignore:
+      - FALL
+      modifiers:
+        all: 0
+    munchhausen:
+      active: false
+      actions: cancel
+    yawrate:
+      rate: 360
+      penalty:
+        factor: 1.25
+        minimum: 250
+        maximum: 2000
+      improbable: true
+  fight:
+    canceldead: true
+    toolchangepenalty: 300
+    pvp:
+      knockbackvelocity: default
+    yawrate:
+      active: true
+    angle:
+      active: true
+      threshold: 75
+      actions: cancel
+    critical:
+      active: true
+      cancel:
+        cancel: 100
+        dividedamage: 1.5
+      falldistance: 0.08
+      actions: cancel
+    direction:
+      active: true
+      strict: true
+      penalty: 100
+      actions: cancel
+    fastheal:
+      active: true
+      interval: 4000
+      buffer: 1000
+      actions: cancel
+    godmode:
+      active: true
+      minage: 1100
+      maxage: 5000
+      actions: cancel vl>60 cancel cmd:kickgod
+    noswing:
+      active: true
+      actions: cancel
+    reach:
+      active: true
+      survivaldistance: 4.2
+      penalty: 500
+      reduce: true
+      reducedistance: 1.0
+      reducestep: 0.175
+      actions: cancel vl>10 cancel cmd:kickfightreach
+    selfhit:
+      active: true
+      actions: cancel vl>10 cancel cmd:kickselfhit
+    speed:
+      active: true
+      limit: 18
+      actions: cancel vl>50 cancel cmd:kickfightspeed
+      shortterm:
+        ticks: 7
+        limit: 7
+  inventory:
+    drop:
+      active: true
+      limit: 100
+      timeframe: 20
+      actions: cancel cmd:dropkick
+    fastclick:
+      active: true
+      sparecreative: true
+      tweaks1_5: false
+      limit:
+        shortterm: 5
+        normal: 18
+      actions: cancel vl>40 cancel cmd:kickfrequency
+    instantbow:
+      active: true
+      strict: true
+      delay: 130
+      actions: cancel
+    instanteat:
+      active: true
+      actions: cancel
+    fastconsume:
+      active: true
+      duration: 0.7
+      whitelist: false
+      items: []
+      actions: cancel
+    gutenberg:
+      active: true
+      actions: cancel cmd:kickinvaliddata
+    items:
+      active: true
+    open:
+      active: true
+      close: true
+      cancelother: true
+  moving:
+    creativefly:
+      active: true
+      ignoreallowflight: true
+      ignorecreative: true
+      model:
+        creative:
+          horizontalspeed: 120
+          verticalspeed: 100
+          maxheight: 128
+        spectator:
+          horizontalspeed: 400
+          verticalspeed: 100
+          maxheight: 128
+      actions: cancel
+    morepackets:
+      active: true
+      seconds: 6
+      epsideal: 20
+      epsmax: 22
+      burst:
+        packets: 40
+        directviolation: 60
+        epmviolation: 180
+      actions: cancel vl>100 cancel cmd:kickpackets
+    morepacketsvehicle:
+      active: true
+      actions: cancel
+    nofall:
+      active: true
+      dealdamage: true
+      resetonviolation: false
+      resetonteleport: true
+      resetonvehicle: true
+      anticriticals: true
+      actions: cancel
+    passable:
+      active: true
+      raytracing:
+        active: true
+        blockchangeonly: false
+      actions: cancel
+      untracked:
+        teleport:
+          active: true
+        command:
+          active: true
+          tryteleport: true
+          prefixes:
+          - spawn
+          - home
+          - plot
+          - p
+          - island
+          - is
+          - call
+    survivalfly:
+      active: true
+      extended:
+        vertical-accounting: true
+      stepheight: default
+      setbackpolicy:
+        falldamage: true
+        voidtovoid: true
+      actions: cancel vl>2000 cancel cmd:kickfly
+      hover:
+        active: true
+        step: 5
+        ticks: 85
+        loginticks: 70
+        falldamage: true
+        sfviolation: 500
+    trace:
+      size: 60
+      mergedist: 0.9752
+    vehicles:
+      preventdestroyown: false
+      enforcelocation: default
+    velocity:
+      activationcounter: 80
+      activationticks: 140
+      strictinvalidation: true
+    ignorestance: default
+    tempkickillegal: false
+    loadchunks:
+      join: false
+    sprintinggrace: 2.0
+    assumesprint: true
+    speedgrace: 4.0
+    enforcelocation: default
+  net:
+    attackfrequency:
+      active: true
+      limitforseconds:
+        half: 10
+        one: 15
+        two: 30
+        four: 60
+        eight: 100
+      actions: cancel vl>30 cancel log:attackfrequency:0:5:if vl>160 cancel log:attackfrequency:0:0:cif cmd:kickattackfrequency
+    flyingfrequency:
+      active: true
+      seconds: 5
+      packetspersecond: 60
+      actions: cancel
+      reduceredundant:
+        active: true
+        seconds: 3
+        actions: cancel
+    keepalivefrequency:
+      active: true
+      actions: cancel vl>100 cancel cmd:kickalive
+    sounddistance:
+      active: true
+      maxdistance: 320
+strings:
+  angle: '[player] failed [check]: tried to hit multiple entities at the same time. VL [violations].'
+  attackfrequency: '[player] failed [check]: attacks with too high a frequency ([packets]/[limit], [tags]). VL [violations].'
+  ban: ban [player]
+  ban-ip: ban-ip [ip]
+  bautosign: '[player] failed [check]: failed autosign with [tags]. VL [violations].'
+  bbfrequency: '[player] failed [check]: tried to break too many blocks within time frame. VL [violations].'
+  bdirection: '[player] failed [check]: tried to interact with a block out of their line of sight. VL [violations].'
+  bedleave: '[player] failed [check]: sends bed leave packets (was not in bed). VL [violations].'
+  bpspeed: '[player] failed [check]: tried to throw projectiles too quickly. VL [violations].'
+  breach: '[player] failed [check]: exceeds block-interact distance ([reachdistance]). VL [violations].'
+  bspeed: '[player] failed [check]: interacts too fast. VL [violations].'
+  bvisible: '[player] failed [check]: interacts with a block out of sight. VL [violations].'
+  bwrong: '[player] failed [check]: broke another block than clicked. VL [violations].'
+  captcha: '[player] failed captcha repeatedly. VL [violations].'
+  chatnormal: '[player] failed [check]: potentially annoying chat. VL [violations].'
+  color: '[player] failed [check]: sent colored chat message. VL [violations].'
+  commands: '[player] failed [check]: issued too many commands. VL [violations].'
+  combspeed: '[player] failed [check]: performs different actions at very high speed. VL [violations].'
+  critical: '[player] failed [check]: tried to do a critical hit but wasn''t technically jumping [tags]. VL [violations].'
+  drop: '[player] failed [check]: tried to drop more items than allowed. VL [violations].'
+  dropkick: ekick [player] §cДавай помедленней!'
+  fastbreak: '[player] failed [check]: tried to break blocks ([blockid]) faster than possible. VL [violations].'
+  fastclick: '[player] failed [check]: tried to move items in their inventory too quickly. VL [violations].'
+  fastconsume: '[player] failed [check]: consumes [food] [tags] too fast. VL [violations].'
+  fastheal: '[player] failed [check]: regenerates health faster than usual. VL [violations].'
+  fastplace: '[player] failed [check]: tried to place too many blocks. VL [violations].'
+  fdirection: '[player] failed [check]: tried to hit an entity out of line of sight. VL [violations].'
+  flyshort: '[player] failed [check]: tried to move unexpectedly. VL [violations].'
+  flylong: '[player] failed [check]: tried to move from [locationfrom] to [locationto] over a distance of [distance] block(s). VL [violations].'
+  freach: '[player] failed [check]: tried to attack entity out of reach. VL [violations].'
+  fselfhit: '[player] failed [check]: tried to self-hit. VL [violations].'
+  fspeed: '[player] failed [check]: tried to attack with too high a frequency. VL [violations].'
+  gutenberg: '[player] failed [check]: created a book with too many pages. VL [violations].'
+  godmode: '[player] failed [check]: avoided taking damage or lagging. VL [violations].'
+  improbable: '[player] failed [check]: meets the improbable more than expected. VL [violations].'
+  instantbow: '[player] failed [check]: fires bow too fast. VL [violations].'
+  instanteat: '[player] failed [check]: eats food [food] too fast. VL [violations].'
+  keepalive: '[player] failed [check]: spams keep-alive packets (god/freecam?). VL [violations].'
+  kick: ekick [player] §cНам кажется, что ты используешь читы. Не надо так :(
+  kickalive: ekick [player] §cПревышен лимит KeepAlive пакетов
+  kickattackfrequency: ncp kick [player] Unlikely fast clicking.
+  kickbedleave: 'kick [player] §cru.dymeth.SOLException: Connection reset by SOL'
+  kickbspeed: ncp kick [player] You interacted too fast!
+  kickcaptcha: ncp kick [player] Enter the captcha!
+  kickchat1: ekick [player] Мы просим тебя прекратить спамить в чате.
+  kickchat5: ncp tempkick [player] 5 You're not intended to spam!
+  kickchatfast: tellraw [player] "\n§cПиши в чат чуть медленее, пожалуйста. Уважай других игроков.\n"
+  kickchatnormal: ekick [player] §cСлишком много сообщений, успокойся...
+  kickcommands: ekick [player] §cСпам коммандами!
+  kickfly: ekick [player] §cПопытка использования FlyHack-a
+  kickfrequency: 'ekick [player] §cru.dymeth.SOLException: Connection reset by SOL'
+  kickgod: ekick [player] §cРежим Бога?
+  kickinvaliddata: ekick [player] §cНеправильный ID
+  kickpackets: ekick [player] §cСлишком много пакетов (медленный интернет?)
+  kickselfhit: ekick [player] §cПопытка ударить себя
+  kickwb: essentials:ekick [player] §cАсинхронное разрушение блоков
+  knockback: '[player] failed [check]: tried to do a knockback but wasn''t technically sprinting. VL [violations].'
+  morepackets: '[player] failed [check]: sent too many moves ([packets] [tags]). VL [violations].'
+  munchhausen: '[player] failed [check]: almost made it off the pit. VL [violations].'
+  nofall: '[player] failed [check]: tried to avoid fall damage. VL [violations].'
+  chatfast: '[player] failed [check]: acted like spamming (IP: [ip]). VL [violations].'
+  noswing: '[player] failed [check]: didn''t swing arm. VL [violations].'
+  passable: '[player] failed [check]: moved into a block ([blockid]) from [locationfrom] to [locationto] distance [distance] . VL [violations].'
+  relog: '[player] failed [check]: relogs too fast. VL [violations].'
+  tellchatnormal: tellraw [player] "\n§cПотише, пожалуйста.\n"
+  tempkick1: ncp tempkick [player] 1 Wait a minute!
+  tempkick5: ncp tempkick [player] 5 You have five minutes to think about it!
+  kickfightreach: ekick [player] §cИспользование читов!
+  kickfightspeed: ekick [player] §cСлишком быстрые удары!
+compatibility:
+  managelisteners: false
+  exemptions:
+    remove:
+      join: true
+      leave: true
+  server:
+    cbdedicated:
+      enable: true
+    cbreflect:
+      enable: true
+  blocks:
+    ignorepassable:
+    - WOODEN_DOOR
+    - IRON_DOOR_BLOCK
+    - TRAP_DOOR
+    - PISTON_EXTENSION
+    - PISTON_MOVING_PIECE
+    allowinstantbreak: []
+    overrideflags:
+      snow: default
+    changetracker:
+      active: false
+      pistons: true

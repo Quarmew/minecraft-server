@@ -1,0 +1,25 @@
+prefix: '&f[&c*&f] '
+block: true
+block syntax: '&fКоманды через двоеточие &6: &fзапрещены!'
+config reloaded: '&6Конфиг успешно перезагружен!'
+no perm: '&fВы не можете использовать эту команду!'
+reason: '&f[&c*&f] &fВы не являетесь администратором сервера!'
+check onmove: true
+check oncmd: false
+check onjoin: false
+check onplace: true
+ticks: 40
+check scheduler: true
+ban: false
+kick command: kick
+ban command: ban
+allowed commands:
+- /shop
+permissions:
+- '*'
+- bukkit.*
+- essentials.*
+- worldedit.*
+- worldguard.*
+owners:
+- wither

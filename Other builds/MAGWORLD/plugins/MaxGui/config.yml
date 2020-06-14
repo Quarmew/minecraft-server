@@ -1,0 +1,5 @@
+Enable:
+  Gui: true
+  Items: true
+AnimationTime: 10
+ClearInventoryOnJoin: false

@@ -1,0 +1,77 @@
+version: 3
+'5':
+  commands:
+  - eco give %player% 50
+  - tm abc &fНа счет зачислено &c50$
+'10':
+  commands:
+  - eco give %player% 60
+  - tm abc &fНа счет зачислено &c60$
+'15':
+  commands:
+  - eco give %player% 70
+  - tm abc &fНа счет зачислено &c70$
+'20':
+  commands:
+  - eco give %player% 80
+  - tm abc &fНа счет зачислено &c80$
+'25':
+  commands:
+  - eco give %player% 90
+  - tm abc &fНа счет зачислено &c90$
+'30':
+  commands:
+  - eco give %player% 100
+  - tm abc &fНа счет зачислено &c100$
+'35':
+  commands:
+  - give %player% 57 1
+  - tm abc &fВы получили &cалмазный блок
+'40':
+  commands:
+  - give %player% 57 2
+  - tm abc &fВы получили &c2 &fалмазных блока
+'45':
+  commands:
+  - give %player% 265 16
+  - tm abc &fВы получили &c16 &fслитков железа
+'55':
+  commands:
+  - give %player% 266 16
+  - tm abc &fВы получили &c16 &fслитков золота
+'60':
+  commands:
+  - give %player% 265 16
+  - tm abc &fВы получили &c16 &fалмазов
+'65':
+  commands:
+  - eco give %player% 500
+  - tm abc &fНа счет зачислено &c500$
+'70':
+  commands:
+  - eco give %player% 1000
+  - tm abc &fНа счет зачислено &c1000$
+'75':
+  commands:
+  - kit premium %player%
+  - tm abc &fВы получили набор &f[&6Premium&f]
+'80':
+  commands:
+  - eco give %player% 2000
+  - tm abc &fНа счет зачислено &c2000$
+'85':
+  commands:
+  - eco give %player% 3000
+  - tm abc &fНа счет зачислено &c3000$
+'90':
+  commands:
+  - kit legend %player%
+  - tm abc &fВы получили набор &f[&bLegend&f]
+'95':
+  commands:
+  - eco give %player% 5000
+  - tm abc &fНа счет зачислено &c5000$
+'100':
+  commands:
+  - pex user %player%  group set premium
+  - tm abc &fВы получили группу &f[&6Premium&f]

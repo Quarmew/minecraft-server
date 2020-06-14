@@ -1,0 +1,19 @@
+run:
+  clearVil:
+    interval: 0
+    broadcast: true
+    broadcastmsg: '§f[§cClear§f] Было убрано жителей: §e+RemoveAmount'
+    world-filter:
+    - neverClear_world
+    clear-list:
+    - Villager
+  mypvpcleaner:
+    interval: 0
+    limit: 0
+    broadcast: true
+    broadcastmsg: '§f[§cClear§f] Удалено предметов: §e+RemoveAmount'
+    world-filter:
+    - world_end
+    clear-list:
+    - Arrow
+    - Item

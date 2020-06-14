@@ -1,0 +1,10 @@
+totalplayer: 3
+status-monitoring: 1
+status-launcher: 0
+status-youtube: 0
+status-vk: 1
+status-friend: 1
+players:
+  BITCHBOUNC3R: monitoring
+  soskamin: vk
+  wither: friend

@@ -1,0 +1,8 @@
+settings:
+  delete-items: true
+  enable-weapon-fix: true
+  enable-gm-fix: true
+  gm-check-interval: 3600
+limits:
+  DIAMOND_SWORD: 23.00
+  general-limit: 20.00

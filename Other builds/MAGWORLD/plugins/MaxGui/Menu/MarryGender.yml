@@ -1,0 +1,24 @@
+name: '                 Выбор пола'
+command: 'MarryGender'
+rows: 5
+Items:
+  man:
+    id: '397:3'
+    SKULL-OWNER: 'ClaytonLegend'
+    slot: 21
+    name: '&eМужской'
+    animation:
+     1:
+     - '&fНажми, если ты парень'
+    command: 'marry gender male'
+    amount: 1
+  female:
+    id: '397:3'
+    SKULL-OWNER: 'ItzMaja'
+    slot: 24
+    name: '&dЖенский'
+    animation:
+     1:
+     - '&fНажми, если ты девушка'
+    command: 'marry gender female'
+    amount: 1

@@ -1,0 +1,28 @@
+pvptime: 7
+apple-cd: 200
+Boolean:
+  pvp-mode: true
+  enable-apple-cooldown: true
+  enable-checks: true
+  kill-on-leave: true
+  kill-on-command: false
+  kill-on-kick: false
+  remove-death-message: true
+  remove-kick-message: true
+  remove-leave-message: true
+  remove-join-message: true
+Messages:
+  action: "&fВы находитесь в режиме &cPVP&f, не выходите из игры! %time%"
+  actionleave: "&cPVP &fокончено, Вы снова можете использовать команды и выходить из игры!"
+  title: "&c&lВы вошли в PVP режим!"
+  titleleave: "&c&lВы вышли из режима PvP"
+  message: "&f[&cAntiRelog&f] Вы вошли в режим &cPVP! &fНе выходите из игры и не используйте команды!"
+  messageleave: "&f[&cAntiRelog&f] &fВы вышли из режима &cPVP! &fВы снова можете использовать команды и выходить из игры!"
+  nochat: "&fВы не можете использовать команды в &cPvP&f. %time%."
+  apple: "&f[&cAntiRelog&f] %time% &fперед следующим использованием золотого яблока!"
+  flyon: "&cВыключите флай для атаки игроков"
+  godon: "&cВыключите год для атаки игроков"
+  gamemodeon: "&cВыключите креатив для атаки игроков"
+  vanishon: "&cВыключите невидимость для атаки игроков"
+  pvpleave: "&f[&cAntiRelog&f] &c%player% &fПокинул игру во время ПВП и был наказан"
+  commandkill: "&fВы были убиты, т.к пытались использовать команду во время &cPVP"

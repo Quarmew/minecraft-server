@@ -1,0 +1,13 @@
+OnJoin:
+  DisplayName: true
+  Fly: true
+  JoinMessage: true
+#Permission with Fly and JoinMessage on join to server
+Permission: 'joiners'
+#If enabled..
+# %name% - Player Name
+# %display_name% - Player DisplayName
+JoinMessage: |-
+ &r &r
+ %display_name% &fприсоединился к игре
+ &r &r

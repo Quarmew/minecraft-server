@@ -1,0 +1,12 @@
+﻿messages:
+  Info: '&f[&eКонсоль&f] &e%player% &fиспользовал команду - &e%command%'
+  SpyOn: '&f[&eКонсоль&f] &fРежим консоли - &eвключён'
+  SpyOff: '&f[&eКонсоль&f] &fРежим консоли - &eвыключён'
+ignore:
+- '/l'
+- '/login'
+- '/reg'
+- '/mail'
+- '/register'
+- '/changepassword'
+- '/email'

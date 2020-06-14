@@ -1,0 +1,52 @@
+claim:
+  vertexpand:
+    enabled: false
+  blocklimits:
+    enabled: true
+    limits:
+      sponsor: 2000000
+      default: 150000
+      helpers: 2500000
+      premium: 300000
+      helper: 2500000
+      legend: 750000
+      ultra: 1000000
+regionprotect:
+  flow:
+    lava:
+      enabled: true
+    water:
+      enabled: true
+  ignitebyplayer:
+    enabled: true
+  fire:
+    spread:
+      toregion:
+        enabled: false
+      inregion:
+        enabled: false
+    burn:
+      enabled: false
+  explosion:
+    block:
+      enabled: true
+    entity:
+      enabled: true
+  pistonmove:
+    enabled: true
+customflags:
+  damage-animals:
+    enabled: false
+  block-interact:
+    enabled: false
+  entity-interact:
+    enabled: false
+autoflags:
+  enabled: true
+  flags:
+    pvp: deny
+restrictcommands:
+  enabled: true
+  commands:
+  - sethome
+  - setwarp

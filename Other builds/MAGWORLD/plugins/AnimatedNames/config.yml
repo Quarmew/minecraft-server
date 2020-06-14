@@ -1,0 +1,24 @@
+config: 2
+lang: 'en'
+debug: false
+log: false
+update:
+  check: false
+legacymode: true
+groups:
+  default:
+    name-prefix:
+      text:
+      - '{PREFIX}'
+      interval: 20
+    name-suffix:
+      text:
+      - '{SUFFIX}'
+      interval: 20
+name-below:
+  enabled: true
+  text:
+  - '{HEALTH}&c❤'
+  interval: 20
+disabled-worlds:
+- 'world_nether'

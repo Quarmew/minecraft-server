@@ -1,0 +1,4 @@
+NPCS:
+  '1':
+    Commands:
+    - buffer~~false

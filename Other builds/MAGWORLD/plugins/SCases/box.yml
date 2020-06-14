@@ -1,0 +1,28 @@
+location: world;-272.0;71.0;1230.0;0.0;0.0
+queue: '&f[&c*&f] &aКто-то уже открывает кейс...'
+title:
+- '&eКейс с привилегиями &7[ПКМ]'
+- '&eПокупка ключей на сайте'
+- '&6magworldmc.mcdonate.ru'
+- ''
+prize:
+  '0':
+    name: §6[Premium]
+    icon: '263'
+    command: pex user %player% group set premium
+  '1':
+    name: §b[Legend]
+    icon: '265'
+    command: pex user %player% group set legend
+  '2':
+    name: §d[Ultra]
+    icon: '266'
+    command: pex user %player% ultra
+  '3':
+    name: §e[Sponsor]
+    icon: '264'
+    command: pex user %player% group set sponsor
+players:
+  soskamin: 6
+  bitchbounc3r: 998
+  wither: 1

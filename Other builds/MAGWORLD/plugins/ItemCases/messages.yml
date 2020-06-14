@@ -1,0 +1,26 @@
+﻿PRIMARY_COLOR: §7
+SECONDARY_COLOR: §a
+ERROR_COLOR: §c
+CHAT_PREFIX: '§f[§aКейсы§f] §7 '
+WORD_TRANSLATION_ENCHANTED: Enchanted
+GUI_CASE_EDITOR_TITLE: '%PRI%Изменено: %SEC%%NAME%'
+GUI_CASE_EDITOR_SUCCESS: '%PREFIX%%PRI%Кейсы сохранены.'
+GUI_CASE_OPENER_TITLE: '%PRI%Кейс CS:GO'
+COMMAND_CASE_DOESNT_EXIST: '%PREFIX%%ERR%Такого кейса не существует!'
+COMMAND_CASE_ALREADY_EXISTS: '%PREFIX%%ERR%Этот кейс уже существует.'
+COMMAND_CASE_CREATE_SUCCESS: '%PREFIX%%PRI%Кейс с названием %SEC%%CASE%%PRI% создан.'
+COMMAND_CASE_REMOVE_SUCCESS: '%PREFIX%%PRI%Кейс с названием %SEC%%CASE%%PRI% удален.'
+COMMAND_CASE_LIST_PREFIX: '%PREFIX%%PRI%Список кейсов: '
+COMMAND_CASE_LIST_NO_CASES: '%PREFIX%%ERR%Список кейсов пуст. Создайте кейс командой /case create <Имя кейса>.'
+COMMAND_CASE_SETREDEEMDELAY_INVALID_TIME: '%PREFIX%%ERR%Это не правильное время.'
+COMMAND_CASE_SETREDEEMDELAY_SUCCESS: '%PREFIX%%PRI%Подождите до следующей покупки ещё %SEC%%TIME%%PRI%
+  Минут(ы).'
+COMMAND_CASE_REDEEM_NO_DELAY_SET: '%PREFIX%%ERR%На этом кейсе нет огранчений в минутах.'
+COMMAND_CASE_REDEEM_NO_PERMISSION: '%PREFIX%%ERR%You cannot redeem that case.'
+COMMAND_CASE_REDEEM_MUST_WAIT: '%PREFIX%%ERR%Подождите %TIME% минут чтобы открыть снова'
+COMMAND_CASE_REDEEM_SUCCESS: '%PREFIX%%PRI%Кейс куплен.'
+ERROR_NO_PERMISSION: '%PREFIX%%ERR%У вас нет прав'
+ERROR_MUST_BE_INGAME: '%PREFIX%%ERR%Вы должны быть в игре что-бы сделать это.'
+ERROR_UNKNOWN_PLAYER: '%PREFIX%%ERR%Игрок сейчас не на сервере либо не зарегестрирован'
+ERROR_CASE_EMPTY: '%PREFIX%%ERR%В кейс не загружены вещи и он не откроется.'
+

@@ -1,0 +1,28 @@
+#  ----------------------------------------------------
+#  AutoMessage Configuration File
+#  ----------------------------------------------------
+#  Message Configuration:
+#     Messages are handled in lists to allow for advanced customization!
+#     Feel free to add color codes by using & in your messages!
+#     To split a message onto multiple lines use the \n delimiter!
+#     Lines starting with / will be run as a command!
+#     To add single apostrophes into a message use ''.
+#     For a complete tutorial go to http://dev.bukkit.org/server-mods/automessage.
+#     If you are unfamiliar with YAML use the in-game commands: /am help
+
+settings:
+  enabled: true
+  min-players: 0
+  log-to-console: false
+message-lists:
+  regular:
+    enabled: true
+    interval: 45
+    expiry: -1
+    random: false
+    messages:
+    - \n&e&lMAGWORLD&r \nХочешь задать вопросы администрации? Завести друзей? Узнать новости? \n&fКликни в чат ниже, чтобы перейти в нашу группу Vkontakte \n{text:"    [Пройти в группу VK]",color:aqua,clickEvent:{action:open_url,value:"https://vk.com/magmcc"},hoverEvent:{action:show_text,value:[{text:"Нажми сюда, чтобы перейти в нашу группу",color:white}]}} \n&fБудь вкурсе новостей, общайся, подписывайся! \n&r\n
+    - \n&e&lMAGWORLD&r \nНикогда еще покупка привилегии не была такой простой и быстрой! \n&fНажми в чат ниже, чтобы узнать возможности или перейти на сайт \n{text:"    [Выбрать привилегию]",color:green,clickEvent:{action:run_command,value:"/donate"},hoverEvent:{action:show_text,value:[{text:"Нажми сюда, или напиши команду /donate",color:white}]}} \n&fТакже о привилегиях можно узнать, написав &c/donate \n&r\n
+    - \n&e&lMAGWORLD&r \nПокупка привилегии часто заводит вас в тупик многими вопросами. \n&fОпасно? Сложно? Долго? Но только не у нас!\n&fУдостоверитесь, купив привилегию &6[Premium] &fвсего за &c20 &fрублей.\n&fМгновенная выдача при покупки на сайте, проверь сам \n{text:"    [Пройти на сайт]",color:green,clickEvent:{action:open_url,value:"http://magworldmc.mcdonate.ru"},hoverEvent:{action:show_text,value:[{text:"Нажми сюда, чтобы перейти на наш сайт",color:white}]}} \n&fВсе очень легко, быстро, и самое главное честно! Информация &c/donate \n&r\n
+    - \n&e&lMAGWORLD&r \nНа сервере теперь действуют новогодние скидки на все привилегии до &c90% \n&fАкция действует до 1 января включительно! \n{text:"    [Выбрать привилегию]",color:green,clickEvent:{action:run_command,value:"/donate"},hoverEvent:{action:show_text,value:[{text:"Нажми сюда, или напиши команду /donate",color:white}]}} \n&fДля сравнение теперь &6[Premium] &fстоит всего &8&m100&c 20 &fрублей!\n&r\n
+    - \n&e&lMAGWORLD&r \nДрузья, нам нужен ваш голос, сделаем сервер популярнее! \n{text:"    [Проголосовать]",color:green,clickEvent:{action:open_url,value:"http://magworldmc.mcdonate.ru"},hoverEvent:{action:show_text,value:[{text:"Нажми сюда, чтобы проголосовать за сервер",color:white}]}}\n Проголосуй за сервер и получи за это бонусы\n

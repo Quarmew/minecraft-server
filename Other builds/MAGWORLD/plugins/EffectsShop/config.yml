@@ -1,0 +1,111 @@
+title: '§0Баффер'
+anim: ' Нажми что бы купить! '
+items: 
+  10:
+    id: 267
+    title: '§9Сила §bI'
+    lore:
+    - 'Увеличивает силу атаки'
+    - '§3Эффект длится §b3 §3мин'
+    command: 'effect %player% 5 120 0'
+    price: 3000
+    glowing: false
+  39:
+    id: 381
+    title: '§9Ночное видение'
+    lore:
+    - 'Позволяет видеть ночью'
+    - '§3Эффект длится §b15 §3мин'
+    command: 'effect %player% 16 900 0'
+    price: 3000
+    glowing: false
+  12:
+    id: 307
+    title: '§9Защита §bI'
+    lore:
+    - 'Увеличивает защиту'
+    - '§3Эффект длится §b10 §3мин'
+    command: 'effect %player% 11 600 0'
+    price: 4000
+    glowing: false
+  20:
+    id: 377
+    title: '§9Защита от Огня §bI'
+    lore:
+    - 'Защищает от огня'
+    - '§3Эффект длится §b10 §3мин'
+    command: 'effect %player% 12 600 0'
+    price: 4500
+    glowing: false
+  29:
+    id: 309
+    title: '§9Скорость §bI'
+    lore:
+    - 'Увеличивает скорость передвижения '
+    - '§3Эффект длится §b5 §3мин'
+    command: 'effect %player% 1 300 0'
+    price: 4000
+    glowing: false
+  37:
+    id: 288
+    title: '§9Увиличение прыжка §bI'
+    lore:
+    - 'Увеличивает высоту прыжка '
+    - '§3Эффект длится §b3 §3мин'
+    command: 'effect %player% 8 180 0'
+    price: 4000
+    glowing: false
+  14:
+    id: 276
+    title: '§9Сила+ §bI'
+    lore:
+    - 'Увеличивает силу атаки'
+    - '§3Эффект длится §b10 §3мин'
+    command: 'effect %player% 5 600 0'
+    price: 6000
+    glowing: true
+  16:
+    id: 311
+    title: '§9Защита §bII'
+    lore:
+    - 'Увеличивает защиту'
+    - '§3Эффект длится §b10 §3мин'
+    command: 'effect %player% 11 600 1'
+    price: 6500
+    glowing: true
+  24:
+    id: 377
+    title: '§9Защита от Огня §bII'
+    lore:
+    - 'Защищает от огня'
+    - '§3Эффект длится §b10 §3мин'
+    command: 'effect %player% 12 600 1'
+    price: 6500
+    glowing: true
+  33:
+    id: 313
+    title: '§9Скорость §bII'
+    lore:
+    - 'Увеличивает скорость передвижения '
+    - '§3Эффект длится §b5 §3мин'
+    command: 'effect %player% 1 300 1'
+    price: 6000
+    glowing: true
+  41:
+    id: 288
+    title: '§9Увеличение прыжка §bII'
+    lore:
+    - 'Увеличивает высоту прыжка '
+    - '§3Эффект длится §b5 §3мин'
+    command: 'effect %player% 8 300 1'
+    price: 7000
+    glowing: true
+  43:
+    id: 381
+    title: '§9Ночное видение'
+    lore:
+    - 'Позволяет видеть ночью'
+    - '§3Эффект длится §b20 §3мин'
+    command: 'effect %player% 16 1200 1'
+    price: 4000
+    glowing: true

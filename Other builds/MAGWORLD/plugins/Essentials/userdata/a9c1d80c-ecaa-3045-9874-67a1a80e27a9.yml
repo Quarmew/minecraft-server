@@ -1,0 +1,35 @@
+lastAccountName: soskamin
+timestamps:
+  login: 1518270365760
+  lastteleport: 1518269550855
+  logout: 1518266432977
+  kits:
+    premium: 1518259941466
+    bonus: 1518262298464
+    legend: 1518259937011
+    start: 1518262296162
+ipAddress: 127.0.0.1
+lastlocation:
+  world: world
+  x: 214.0
+  y: 63.0
+  z: 862.0
+  yaw: 279.15033
+  pitch: 2.7000005
+homes:
+  home:
+    world: world
+    x: 3614.9428276226845
+    y: 72.0
+    z: -890.3978321881448
+    yaw: -189.11836
+    pitch: 32.681984
+logoutlocation:
+  world: world
+  x: -272.5544693541566
+  y: 70.0
+  z: 1226.0077864350371
+  yaw: -294.74292
+  pitch: 16.167141
+socialspy: false
+money: '5425.0'

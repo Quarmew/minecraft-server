@@ -1,0 +1,91 @@
+# -----------------------------------------
+# 
+# 		    Statistic config
+# 
+#            Name: rparkour-score
+#     	   Plugin: RogueParkour
+# 
+# -----------------------------------------
+# 
+#     Explanation of options:
+# 
+#     force-update: whether the plugin should update the data
+# 	of this statistic even if no sign is made for its leaderboard or not.
+# 
+#     update-interval: the time in seconds between updates of a statistic and leaderboard.
+#     There's no update-interval for the sub-statistics because these update when the main statistic updates.
+# 
+#     sign-lines: the lines on the sign of the leaderboard. Variables: {rank}, {name}, {amount}
+# 
+#     menu-lines: the lines on the skulls in the menu of the leaderboard
+# 
+#     online-only: whether the plugin should only save this statistic to the database for online players
+# 
+# -----------------------------------------
+force-update: true
+online-only: true
+all-time:
+  sign-lines:
+  - ''
+  - '&l{name}'
+  - '{amount} очков'
+  - ''
+  update-interval: 1
+  menu-enabled: true
+  menu-command: /topparkour
+  menu-size: 9
+  menu-name: 'Топ паркуристов'
+  menu-lines:
+  - '&eМесто &c#{rank} &eпо паркурщикам'
+  - ''
+  - '&aНикнейм: {name}'
+  - '&cОчков: {amount}'
+  - ''
+daily:
+  sign-lines:
+  - '&c&m------------'
+  - '&a{name}'
+  - '&eScore {amount}'
+  - '&c&m------------'
+  menu-enabled: false
+  menu-command: /topparkourscoresdaily
+  menu-size: 9
+  menu-name: '&bTop Parkour Scores Daily'
+  menu-lines:
+  - '&f&m----&f< &b{rank} &f>&m----'
+  - '&c&m------------'
+  - '&a{name}'
+  - '&eScore {amount}'
+  - '&c&m------------'
+weekly:
+  sign-lines:
+  - '&c&m------------'
+  - '&a{name}'
+  - '&eScore {amount}'
+  - '&c&m------------'
+  menu-enabled: false
+  menu-command: /topparkourscoresweekly
+  menu-size: 9
+  menu-name: '&bTop Parkour Scores Weekly'
+  menu-lines:
+  - '&f&m----&f< &b{rank} &f>&m----'
+  - '&c&m------------'
+  - '&a{name}'
+  - '&eScore {amount}'
+  - '&c&m------------'
+monthly:
+  sign-lines:
+  - '&c&m------------'
+  - '&a{name}'
+  - '&eScore {amount}'
+  - '&c&m------------'
+  menu-enabled: false
+  menu-command: /topparkourscoresmonthly
+  menu-size: 9
+  menu-name: '&bTop Parkour Scores Monthly'
+  menu-lines:
+  - '&f&m----&f< &b{rank} &f>&m----'
+  - '&c&m------------'
+  - '&a{name}'
+  - '&eScore {amount}'
+  - '&c&m------------'

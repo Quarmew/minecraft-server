@@ -1,0 +1,10 @@
+enabled: false
+master: false
+master-config:
+  port: 7899
+  password: 'ILoveSpigot'
+slave-config:
+  hostname: 'localhost'
+  port: 7899
+  password: 'ILoveSpigot'
+  interval: 5 

@@ -1,0 +1,4 @@
+ignored-plugins: [PlugMan]
+use-metrics: false
+update-alerts: false
+updater-type: download

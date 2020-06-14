@@ -1,0 +1,32 @@
+heads:
+  '0':
+    world: world
+    x: 3633.0
+    y: 72.0
+    z: -894.0
+  '1':
+    world: world
+    x: 3634.0
+    y: 71.0
+    z: -894.0
+  '2':
+    world: world
+    x: 3632.0
+    y: 71.0
+    z: -894.0
+signs:
+  '0':
+    world: world
+    x: 3633.0
+    y: 71.0
+    z: -895.0
+  '1':
+    world: world
+    x: 3634.0
+    y: 70.0
+    z: -895.0
+  '2':
+    world: world
+    x: 3632.0
+    y: 70.0
+    z: -895.0

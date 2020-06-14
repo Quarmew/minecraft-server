@@ -1,0 +1,52 @@
+{
+  "pluginVersion": "7.2.17",
+  "useLavaOceans": false,
+  "useFastOres": false,
+  "useOpenSimplexNoise": false,
+  "useFastRandomAlgorithm": true,
+  "overrideSaplings": true,
+  "roughFading": true,
+  "flatBedrock": false,
+  "seaLevel": 62,
+  "bedrockLevel": 1,
+  "maxCaveHeight": 120,
+  "minCaveHeight": 8,
+  "globalTreeModifier": 1.0,
+  "mineshaftChance": 0.01,
+  "biomeTypeSize": 700.0,
+  "biomeSize": 450.0,
+  "worldSize": -1,
+  "worldCenterX": 0,
+  "worldCenterZ": 0,
+  "flatAreas": [
+    {
+      "radius": 80,
+      "xLocation": 0,
+      "zLocation": 0,
+      "baseLevel": 70,
+      "outerRadius": 40
+    }
+  ],
+  "biomeTypes": {
+    "DESERT": {
+      "enabled": true,
+      "percentage": 0.125
+    },
+    "AQUATIC": {
+      "enabled": true,
+      "percentage": 0.0625
+    },
+    "GRASSLAND": {
+      "enabled": true,
+      "percentage": 0.375
+    },
+    "FOREST": {
+      "enabled": true,
+      "percentage": 0.4375
+    },
+    "TUNDRA": {
+      "enabled": true,
+      "percentage": 0.0
+    }
+  }
+}

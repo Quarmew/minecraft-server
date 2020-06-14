@@ -1,0 +1,7 @@
+Groups:
+  default:
+    local: '&7Local &8| !marry!!clantag!%prefix%player%suffix: %message'
+    global: '&6Global &8| !marry!!clantag!%prefix%player%suffix: %message'
+global-symbol: '!'
+range: true
+radius: 500

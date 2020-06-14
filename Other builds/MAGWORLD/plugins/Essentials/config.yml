@@ -1,0 +1,374 @@
+ops-name-color: 'none'
+nickname-prefix: ''
+max-nick-length: 16
+change-displayname: true
+teleport-cooldown: 0
+teleport-delay: 0
+teleport-invulnerability: 0
+heal-cooldown: 60
+item-spawn-blacklist: 7,8,9,10,11,37,38,39,40,52,51,79,46,62,79,90,73,60,99,100,137,166,165,167,168,168:1,168:2,169,295,326,327,344,332,383:50,383:51,383:52,383:54,383:55,383:56,383:57,383:58,383:59,383:60,383:61,383:62,383:63,383:64,383:65,383:66,383:67,383:68,383:69,383:90,383:91,383:92,383:93,383:94,383:95,383:96,383:98,383:100,383:101,383:120,385,384,399,422
+permission-based-item-spawn: false
+spawnmob-limit: 1
+warn-on-smite: false
+overridden-commands:
+#  - god
+#  - info
+disabled-commands:
+#  - nick
+#  - clear
+socialspy-commands:
+  - msg
+  - w
+  - r
+  - mail
+  - m
+  - t
+  - whisper
+  - emsg
+  - tell
+  - er
+  - reply
+  - ereply
+  - email
+  - action
+  - describe
+  - eme
+  - eaction
+  - edescribe
+  - etell
+  - ewhisper
+  - pm
+  - l
+  - login
+player-commands:
+  - back
+  - back.ondeath
+  - balance
+  - balance.others
+  - balancetop
+  - build
+  - chat.color
+  - chat.format
+  - chat.shout
+  - chat.question
+  - clearinventory
+  - compass
+  - depth
+  - delhome
+  - getpos
+  - geoip.show
+  - help
+  - helpop
+  - home
+  - home.others
+  - ignore
+  - info
+  - itemdb
+  - kit
+  - kits.tools
+  - list
+  - mail
+  - mail.send
+  - me
+  - motd
+  - msg
+  - msg.color
+  - nick
+  - near
+  - pay
+  - ping
+  - protect
+  - r
+  - rules
+  - realname
+  - seen
+  - sell
+  - sethome
+  - setxmpp
+  - signs.create.protection
+  - signs.create.trade
+  - signs.break.protection
+  - signs.break.trade
+  - signs.use.balance
+  - signs.use.buy
+  - signs.use.disposal
+  - signs.use.enchant
+  - signs.use.free
+  - signs.use.gamemode
+  - signs.use.heal
+  - signs.use.info
+  - signs.use.kit
+  - signs.use.mail
+  - signs.use.protection
+  - signs.use.repair
+  - signs.use.sell
+  - signs.use.time
+  - signs.use.trade
+  - signs.use.warp
+  - signs.use.weather
+  - spawn
+  - suicide
+  - time
+  - tpa
+  - tpaccept
+  - tpahere
+  - tpdeny
+  - warp
+  - warp.list
+  - world
+  - worth
+  - xmpp
+kits:
+  start:
+    delay: 84600
+    items:
+      - 298 1 color:0,180,200 protection:1 
+      - 299 1 color:127,204,25 protection:1 
+      - 300 1 color:255,160,0 protection:1 
+      - 301 1 color:194,39,0 protection:1
+      - 265 10 name:&7Стартовый_набор_&a[Новичок]
+      - 260 15 name:&7Стартовый_набор_&a[Новичок]
+      - 263 12 name:&7Стартовый_набор_&a[Новичок]
+      - 322 3 name:&7Стартовый_набор_&a[Новичок]
+      - 272 1 name:&7Стартовый_набор_&a[Новичок] Sharpness:1
+      - 275 1 name:&7Стартовый_набор_&a[Новичок] efficiency:1 unbreaking:1
+      - 274 1 name:&7Стартовый_набор_&a[Новичок] efficiency:1 unbreaking:1
+      - 273 1 name:&7Стартовый_набор_&a[Новичок] efficiency:1 unbreaking:1
+      - 373:8262 1 name:&7Стартовый_набор_&a[Новичок]
+      - 373:8259 1 name:&7Стартовый_набор_&a[Новичок]
+      - 373:8229 1 name:&7Стартовый_набор_&a[Новичок]
+      - 17 32 name:&7Стартовый_набор_&a[Новичок]
+      - 17:2 32 name:&7Стартовый_набор_&a[Новичок]
+      - 20 16 name:&7Стартовый_набор_&a[Новичок]
+      - 35 16 name:&7Стартовый_набор_&a[Новичок]
+      - 98 32 name:&7Стартовый_набор_&a[Новичок]
+      - 354 1 name:&7Стартовый_набор_&a[Новичок]
+      - 296 10 name:&7Стартовый_набор_&a[Новичок]
+      - 362 15 name:&7Стартовый_набор_&a[Новичок]
+      - 361 15 name:&7Стартовый_набор_&a[Новичок]
+      - 280 1 name:&7Проверить_регион.
+      - 271 1 name:&7Заприватить_регион.
+  bonus:
+    delay: 259200
+    items:
+      - 58 1 name:&7Бонусный_набор_&a[Новичок]
+      - 295 15 name:&7Бонусный_набор_&a[Новичок]
+      - 17 16 name:&7Бонусный_набор_&a[Новичок]
+      - 413 1 name:&7Бонусный_набор_&a[Новичок]
+      - 424 3 name:&7Бонусный_набор_&a[Новичок]
+      - 384 16 name:&7Бонусный_набор_&a[Новичок]
+      - 379 2 name:&7Бонусный_набор_&a[Новичок]
+      - 380 2 name:&7Бонусный_набор_&a[Новичок]      
+  Premium:
+    delay: 3600
+    items:
+      - 302 1 protection:1 name:&7Стартовый_набор_для_&6[Premium]_&7игрока lore:&cСпециально_для_&c&l{USERNAME}
+      - 303 1 protection:1 name:&7Стартовый_набор_для_&6[Premium]_&7игрока lore:&cСпециально_для_&c&l{USERNAME}
+      - 304 1 protection:1 name:&7Стартовый_набор_для_&6[Premium]_&7игрока lore:&cСпециально_для_&c&l{USERNAME}
+      - 305 1 protection:1 name:&7Стартовый_набор_для_&6[Premium]_&7игрока lore:&cСпециально_для_&c&l{USERNAME}
+      - 276 1 name:&7Стартовый_набор_для_&6[Premium]_&7игрока lore:&cСпециально_для_&c&l{USERNAME}
+      - 266 12 name:&7Стартовый_набор_для_&6[Premium]_&7игрока lore:&cСпециально_для_&c&l{USERNAME}
+      - 265 16 name:&7Стартовый_набор_для_&6[Premium]_&7игрока lore:&cСпециально_для_&c&l{USERNAME}
+      - 264 18 name:&7Стартовый_набор_для_&6[Premium]_&7игрока lore:&cСпециально_для_&c&l{USERNAME}
+      - 388 3 name:&7Стартовый_набор_для_&6[Premium]_&7игрока lore:&cСпециально_для_&c&l{USERNAME}
+      - 322:1 8 name:&7Стартовый_набор_для_&6[Premium]_&7игрока lore:&cСпециально_для_&c&l{USERNAME}
+      - 364 16 name:&7Стартовый_набор_для_&6[Premium]_&7игрока lore:&cСпециально_для_&c&l{USERNAME}
+      - 368 8 name:&7Стартовый_набор_для_&6[Premium]_&7игрока lore:&cСпециально_для_&c&l{USERNAME}
+      - 384 32 name:&7Стартовый_набор_для_&6[Premium]_&7игрока lore:&cСпециально_для_&c&l{USERNAME}
+  Legend:
+    delay: 172800
+    items:
+      - 276 1 sharpness:3 looting:2 fireaspect:2 name:&7Стартовый_набор_для_&b[Legend]_&7игрока lore:&cСпециально_для_&c&l{USERNAME}
+      - 256 1 fortune:2 unbreaking:3 efficiency:3 name:&7Стартовый_набор_для_&b[Legend]_&7игрока lore:&cСпециально_для_&c&l{USERNAME} 
+      - 257 1 fortune:2 unbreaking:3 efficiency:3 name:&7Стартовый_набор_для_&b[Legend]_&7игрока lore:&cСпециально_для_&c&l{USERNAME} 
+      - 258 1 fortune:2 unbreaking:3 efficiency:3 name:&7Стартовый_набор_для_&b[Legend]_&7игрока lore:&cСпециально_для_&c&l{USERNAME} 
+      - 306 1 protection:3 unbreaking:3 name:&7Стартовый_набор_для_&b[Legend]_&7игрока lore:&cСпециально_для_&c&l{USERNAME} 
+      - 307 1 protection:3 unbreaking:3 name:&7Стартовый_набор_для_&b[Legend]_&7игрока lore:&cСпециально_для_&c&l{USERNAME} 
+      - 308 1 protection:3 unbreaking:3 name:&7Стартовый_набор_для_&b[Legend]_&7игрока lore:&cСпециально_для_&c&l{USERNAME} 
+      - 309 1 protection:3 unbreaking:3 name:&7Стартовый_набор_для_&b[Legend]_&7игрока lore:&cСпециально_для_&c&l{USERNAME} 
+      - 373:16396 12 name:&7Стартовый_набор_для_&b[Legend]_&7игрока lore:name:&7Стартовый_набор_для_&b[Legend]_&7игрока lore:&cСпециально_для_&c&l{USERNAME}
+      - 261 1 power:3 punch:2 flame:1 name:&7Стартовый_набор_для_&b[Legend]_&7игрока lore:&cСпециально_для_&c&l{USERNAME} 
+      - 262 32 name:&7Стартовый_набор_для_&b[Legend]_&7игрока lore:&cСпециально_для_&c&l{USERNAME}
+      - 322:1 32 name:&7Стартовый_набор_для_&b[Legend]_&7игрока lore:&cСпециально_для_&c&l{USERNAME} 
+      - 384 64 name:&7Стартовый_набор_для_&b[Legend]_&7игрока lore:&cСпециально_для_&c&l{USERNAME}
+      - 57 3 name:&7Стартовый_набор_для_&b[Legend]_&7игрока lore:&cСпециально_для_&c&l{USERNAME} 
+      - 41 3 name:&7Стартовый_набор_для_&b[Legend]_&7игрока lore:&cСпециально_для_&c&l{USERNAME} 
+      - 42 3 name:&7Стартовый_набор_для_&b[Legend]_&7игрока lore:&cСпециально_для_&c&l{USERNAME} 
+      - 133 3 name:&7Стартовый_набор_для_&b[Legend]_&7игрока lore:&cСпециально_для_&c&l{USERNAME} 
+enabledSigns:
+  #- color
+   - balance
+   - buy
+   - sell
+  #- trade
+   - free
+   - disposal
+   - warp
+  #- kit
+  #- mail
+   - enchant
+   - gamemode
+   - heal
+  #- info
+  #- spawnmob
+   - repair
+  #- time
+  #- weather
+sign-use-per-second: 4
+backup:
+  interval: 30
+per-warp-permission: false
+list:
+    §7[Игроки]: default
+    §6[Premium]: premium
+    §b[Legend]: legend
+    §d[Ultra]: ultra
+    §3[Sponsor]: sponsor
+    §3[BUILDER]: builder
+    §9[HELPER]: helper
+    §9[HELPER] §8(Купил): helpers
+    §c[OWNER]: owner
+debug: false
+remove-god-on-disconnect: false
+auto-afk: -1
+auto-afk-kick: -1
+freeze-afk-players: false
+disable-item-pickup-while-afk: false
+cancel-afk-on-interact: true
+cancel-afk-on-move: true
+death-messages: false
+allow-silent-join-quit: false
+custom-join-message: "none"
+custom-quit-message: "none"
+no-god-in-worlds:
+  - world_nether
+world-teleport-permissions: false
+default-stack-size: -1
+oversized-stacksize: 64
+repair-enchanted: true
+unsafe-enchantments: false
+register-back-in-listener: false
+login-attack-delay: 5
+max-fly-speed: 0.8
+max-walk-speed: 0.8
+mails-per-minute: 1000
+max-tempban-time: 1000
+update-bed-at-daytime: true
+world-home-permissions: false
+sethome-multiple:
+  default: 1
+  premium: 2
+  legend: 4
+  ultra: 7
+  sponsor: 500
+tpa-accept-cancellation: 120
+starting-balance: 5000
+command-costs:
+  # /example costs $1000 PER USE
+  #example: 1000
+  # /kit tools costs $1500 PER USE
+  #kit-tools: 1500
+currency-symbol: '$'
+max-money: 1000000
+min-money: 0
+economy-log-enabled: true
+non-ess-in-help: true
+hide-permissionless-help: true
+chat:
+  radius: 0
+  format: '<{DISPLAYNAME}> {MESSAGE}'
+  group-formats:
+protect:
+  prevent:
+    lava-flow: false
+    water-flow: false
+    water-bucket-flow: false
+    fire-spread: true
+    lava-fire-spread: true
+    flint-fire: false
+    lightning-fire-spread: true
+    portal-creation: false
+    tnt-explosion: false
+    tnt-playerdamage: false
+    tnt-minecart-explosion: false
+    tnt-minecart-playerdamage: false
+    fireball-explosion: false
+    fireball-fire: false
+    fireball-playerdamage: false
+    witherskull-explosion: false
+    witherskull-playerdamage: false
+    wither-spawnexplosion: false
+    wither-blockreplace: false
+    creeper-explosion: false
+    creeper-playerdamage: false
+    creeper-blockdamage: false
+    enderdragon-blockdamage: true
+    enderman-pickup: false
+    villager-death: false
+    entitytarget: false
+    spawn:
+      creeper: false
+      skeleton: false
+      spider: false
+      giant: true
+      zombie: false
+      slime: false
+      ghast: false
+      pig_zombie: false
+      enderman: false
+      cave_spider: false
+      silverfish: false
+      blaze: false
+      magma_cube: false
+      ender_dragon: true
+      pig: false
+      sheep: false
+      cow: false
+      chicken: false
+      squid: false
+      wolf: false
+      mushroom_cow: false
+      snowman: false
+      ocelot: false
+      iron_golem: false
+      villager: false
+      wither: true
+      bat: false
+      witch: false
+      horse: false
+  creeper:
+    max-height: -1
+  disable:
+    fall: false
+    pvp: false
+    drown: false
+    suffocate: false
+    lavadmg: false
+    projectiles: false
+    contactdmg: false
+    firedmg: false
+    lightning: false
+    wither: true
+    weather:
+      storm: true
+      thunder: true
+      lightning: true
+    build: false
+    use: false
+    warn-on-build-disallow: true
+  alert:
+    on-placement: 10,11,46,327
+    on-use: 327
+    on-break:
+  blacklist:
+    placement: 10,11,46,327
+    usage: 327
+    break:
+    piston:
+    dispenser:
+newbies:
+  announce-format: ''
+  spawnpoint: newbies
+  kit: 'start'
+respawn-listener-priority: high
+respawn-at-home: false

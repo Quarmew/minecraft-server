@@ -1,0 +1,8 @@
+# Плагин разработан специально для live:nikorasuurufudu
+# Скайп разработчика: jampire-h
+# Окончание поддержки плагина: 26 марта 2015
+request_cooldown: 300 # промежуток между отправкой запросов
+default_pvp_status: false # статус пвп после свадьбы
+heart: '§4❤' # тег в чате
+messages:
+    broadcast: '§aИгрок §e%pl1%§a женился на §e%pl2%§a.'

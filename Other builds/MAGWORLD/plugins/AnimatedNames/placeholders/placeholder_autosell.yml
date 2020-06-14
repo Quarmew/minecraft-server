@@ -1,0 +1,13 @@
+config: 1
+insellmode:
+  true: 'ВКЛ'
+  false: 'ВЫКЛ'
+insmeltmode:
+  true: 'ВКЛ'
+  false: 'ВЫКЛ'
+hasshop:
+  true: 'ВКЛ'
+  false: 'ВЫКЛ'
+hasmultiplier:
+  true: 'ВКЛ'
+  false: 'ВЫКЛ'

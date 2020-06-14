@@ -1,0 +1,46 @@
+﻿LimitEdite:
+  Messages:
+    Prefix: '&f[&c*&f] '
+    Lemit: '&fВы выделили: &6%sel&r блоков. Ваш лимит: &6%max'
+    Territory: '&fВы можете использовать &6WorldEdit &fтолько в своих регионах.'
+    UP: '&fВы можете использовать &fWorldEdit &fтолько в своих регионах.'
+    Block: '&fВам &6запрещено &fвыполнять операции с данным блоком.'
+  Commands:
+   - //set
+   - //cup
+   - //walls
+   - //pyramid
+   - //sphere
+   - //hsphere
+   - //cyl
+   - //hcyl
+   - //replace
+   - //smooth
+   - //redo
+   - //copy
+   - //paste
+   - //rep
+   - //re
+  Players:
+    BITCHBOUNC3R: 999999999999999999999999999999
+  Groups:
+    default: 50000
+    premium: 100000
+    creative: 150000
+    ultra: 200000
+    elite: 250000
+    legend: 300000
+    youtube: 300000
+    titan: 300000
+    sozdatel: 500000
+    owner: 99999999999
+  BlockedID:
+   - 10
+   - 11
+   - 9
+   - 8
+   - 57
+   - 41
+   - 41
+   - 42
+   - 145

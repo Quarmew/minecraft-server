@@ -1,0 +1,3 @@
+match ^/(gms|gmc|egm|egamemode|egmc|egms|gamemode|gm).(3|s)
+then warn §cНеизвестная команда!
+then deny

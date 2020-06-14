@@ -1,0 +1,28 @@
+lastAccountName: BITCHBOUNC3R
+timestamps:
+  login: 1518423074048
+  logout: 1518423082871
+  lastteleport: 1518420351361
+  kits:
+    premium: 1516294568287
+    legend: 1516294689457
+    bonus: 1516294563386
+    start: 1518421866146
+ipAddress: 127.0.0.1
+lastlocation:
+  world: world
+  x: -257.5
+  y: 67.0
+  z: 1250.5
+  yaw: -56.545116
+  pitch: 8.967074
+logoutlocation:
+  world: world
+  x: -302.1669733618814
+  y: 77.1098967756424
+  z: 1226.7298024779773
+  yaw: -236.09427
+  pitch: 15.600013
+godmode: false
+money: '6410.0'
+socialspy: false
